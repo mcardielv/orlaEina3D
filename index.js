@@ -641,49 +641,28 @@ function video() {
 //conseguir los nombres de los alumnos para crear lista en home
 //no consigo llenar el fillTxt
 function getAllNames(namesArray) {
-  const rawList = namesArray.map((data) => data.ALUMNE);
+  const namesList = namesArray.map((data) => data.ALUMNE);
   // console.log(rawList);
+  const titleList = namesArray.map((data) => data.TITOL);
+  const typeList = namesArray.map((data) => data.TIPOLOGIA);
+  const srcList = namesArray.map((data) => data.SRC);
 
   let fillTxt = document.querySelector(".alumns-list").innerHTML;
   console.log(fillTxt);
   let filledTxt = "";
-  // for (let i = 0; i < rawList.length; i++) {
-  //   filledTxt += rawList[i] + " ⎯⎯⎯ ";
-  // }
 
-  for (let i = 0; i < rawList.length; i++) {
+  for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
-    li.textContent += rawList[i];
+    li.textContent += namesList[i];
     alumnslist.appendChild(li);
   }
 
-  fillTxt = `<p><h2>${filledTxt}</h2></p>`;
+  //fillTxt = `<p><h2>${filledTxt}</h2></p>`;
   console.log(fillTxt);
   return fillTxt;
 }
 
 getAllNames(data);
-
-// console.log(getAllNames(data)[0]);
-
-// function fillTxtNames() {
-//   let filledTxtList = 0;
-//   const fillTxt = document.getElementsByClassName("alumns-list").innerHTML;
-//   filledTxtList = fillTxt;
-
-//   return filledTxtList;
-// }
-
-// fillTxtNames();
-
-//revisar funcion incompleta
-// function fillNamesList(alumnesList) {
-//   alumnesList.forEach((alumne) => {
-//     const alumnes = document.getElementsByClassName("alumns-list").innerHTML;
-//   });
-// }
-
-// fillNamesList(data);
 
 // CREATE HTML NEW ELMEENT
 
