@@ -50,8 +50,12 @@ How to interact with DOM elements and create divs from 0 or div’s already crea
 - [ ]  EXTRA: Check optimization img, compress data if needed
 
 
+
+
+
+
 ##########
-19/09/2022
+#19/09/2022
 
 To-Fix:
 - Video play/stop working (only one), I need to change querySelector for all of them. 
