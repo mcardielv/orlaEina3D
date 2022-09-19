@@ -51,6 +51,9 @@ How to interact with DOM elements and create divs from 0 or div’s already crea
 
 
 
+\/
+\/
+\/
 
 
 # 19/09/2022
