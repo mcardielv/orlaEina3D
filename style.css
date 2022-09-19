@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Eina 04 Light";
+  src: url("./assets/typography/Eina04-Light.woff2") format("woff2"),
+    url("./assets/typography/Eina04-Light.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Eina 04 Italic";
+  src: url("./assets/typography/Eina04-LightItalic.woff2") format("woff2"),
+    url("./assets/typography/Eina04-LightItalic.woff") format("woff");
+  font-weight: 300;
+  /* font-style: italic; */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eina 04 RegularItalic";
+  src: url("./assets/typography/Eina04-RegularItalic.woff2") format("woff2"),
+    url("./assets/typography/Eina04-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  /* font-style: italic; */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eina 04 Regular";
+  src: url("./assets/typography/Eina04-Regular.woff2") format("woff2"),
+    url("./assets/typography/Eina04-Regular.woff") format("woff");
+  font-weight: normal;
+  /* font-style: normal; */
+  font-display: swap;
+}
+
+* {
+  font-family: "Eina 04 Light";
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-feature-settings: "zero";
+  font-feature-settings: "smcp" on;
+  font-feature-settings: "smcp", "0";
+}
+
+body {
+  background-color: black;
+  /* transition: background-color 2500ms linear; */
+}
+
+h1 {
+  font-family: "Eina 04 Light";
+  font-size: 23px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+h1:hover {
+  color: gray;
+  -webkit-transition: color 150ms linear;
+  -ms-transition: color 150ms linear;
+  transition: color 150ms linear;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100vw;
+}
+
+.main-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin: auto;
+  align-items: center;
+}
+
+.course {
+  display: flex;
+  justify-content: left;
+  margin-right: auto;
+  padding-left: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-right: 90px;
+}
+
+.title h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+.logo {
+  display: flex;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.logo h1 {
+  margin-left: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: "⎯⎯";
+  /* padding: 50px; */
+}
+.alumns-list ul {
+  display: flex;
+  /* flex-direction: column; */
+  list-style: "⎯⎯";
+}
+
+.alumns-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* position: fixed; */
+  bottom: 20px;
+  padding: 50px;
+}
+.alumns-list li {
+  padding-right: 35px;
+  font-size: 35px;
+  font-family: "Eina 04 Light";
+  /* padding: 15px; */
+}
+.alumns-list li:nth-child(1) {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Eina 04 Light";
+  padding: 15px;
+  mix-blend-mode: difference;
+}
+
+.alumns-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  padding-top: 30px;
+}
+
+.alumn {
+  display: flex;
+  width: 270px;
+  height: 270px;
+}
+.vid {
+  width: 110%;
+  height: 110%;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 15px;
+  }
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .alumns-container {
+    justify-items: center;
+  }
+
+  .alumn {
+    padding-top: 20px;
+    width: 187px;
+    height: 187px;
+    justify-items: center;
+  }
+  .alumns-list {
+    /* display: none; */
+    font-size: 10px;
+  }
+
+  footer {
+    padding-bottom: 20px;
+  }
+}
