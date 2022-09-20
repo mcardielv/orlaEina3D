@@ -621,6 +621,7 @@
   },
 ];
 
-if (typeof module !== "undefined") {
-  module.exports = data;
-}
+// if (typeof module !== "undefined") {
+//   module.exports = data;
+// }
+// export default data;

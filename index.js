@@ -1,4 +1,5 @@
-// const dataImport = require("./data.js");
+// const data = require("./data.js");
+// import data from "./data.js";
 const data = [
   {
     ALUMNE: "Aina Gonzalo i Gilibert",
@@ -625,24 +626,27 @@ const data = [
 const observer = lozad();
 observer.observe();
 
-//video play/pause on hover
-function video() {
-  let alumnVideo = document.querySelector("#lozad");
-  allProducts.forEach((vid) => {
-    // Adding play/pause the video
-    alumnVideo.addEventListener("mouseover", function (e) {
-      alumnVideo.pause();
-    });
+// projWrap[i].setAttribute('href', `projects.html?${data[i].id}`);
+// let projNum = window.location.search.split('?')[1];
 
-    /* Applying the mouse out event to pause the video */
-    alumnVideo.addEventListener("mouseout", function (e) {
-      alumnVideo.play();
-    });
-  });
-}
+// video play/pause on hover
+// function video() {
+//   let alumnVideo = document.querySelector(".lozad");
+//   console.log(alumnVideo);
+//   allProducts.forEach((vid) => {
+//     // Adding play/pause the video
+//     alumnVideo.addEventListener("mouseover", function (e) {
+//       alumnVideo.pause();
+//     });
 
-//conseguir los nombres de los alumnos para crear lista en home
-//no consigo llenar el fillTxt
+//     /* Applying the mouse out event to pause the video */
+//     alumnVideo.addEventListener("mouseout", function (e) {
+//       alumnVideo.play();
+//     });
+//   });
+// }
+
+//Mapping all category elements from array to change parameters in DOM HTML.
 function getAllNames(namesArray) {
   const namesList = namesArray.map((data) => data.ALUMNE);
   // console.log(rawList);
@@ -650,18 +654,28 @@ function getAllNames(namesArray) {
   const typeList = namesArray.map((data) => data.TIPOLOGIA);
   const srcList = namesArray.map((data) => data.SRC);
 
+  // get from html alumns text list ul
   let fillTxt = document.querySelector(".alumns-list").innerHTML;
   console.log(fillTxt);
+  // get from html alumns tipologia list ul
+  let fillTxt2 = document.querySelector(".alumns-list-specialities").innerHTML;
 
   for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
     li.textContent += namesList[i];
-    alumnslist.appendChild(li);
+    alumnsList.appendChild(li);
   }
 
+  for (let i = 0; i < typesList.length; i++) {
+    let li = document.createElement("li");
+    li.textContent += typeList[i];
+    alumnsSpecialities.appendChild(li);
+  }
+
+  for (let i = 0; i < srcList; i++) {}
   //fillTxt = `<p><h2>${filledTxt}</h2></p>`;
-  console.log(fillTxt);
-  return fillTxt;
+  console.log(fillTxt, fillTxt2);
+  return fillTxt, fillTxt2;
 }
 
 getAllNames(data);

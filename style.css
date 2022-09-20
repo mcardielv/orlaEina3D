@@ -3,6 +3,7 @@
   src: url("./assets/typography/Eina04-Light.woff2") format("woff2"),
     url("./assets/typography/Eina04-Light.woff") format("woff");
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,8 +34,10 @@
 }
 
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Eina 04 Light";
+  /* delete down if tipography fails */
+  font-display: none;
   color: white;
   font-size: 16px;
   margin: 0;
@@ -42,25 +45,29 @@
   font-feature-settings: "zero";
   font-feature-settings: "smcp" on;
   font-feature-settings: "smcp", "0";
+  font-variant: slashed-zero;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: black;
-  /* transition: background-color 2500ms linear; */
 }
 
 h1 {
   font-family: "Eina 04 Light";
   font-size: 23px;
   color: white;
+  mix-blend-mode: difference;
 }
 
 a {
   text-decoration: none;
 }
+h1 a {
+  font-size: 23px;
+}
 
-a:hover,
-h1:hover {
+.hover:hover {
   color: gray;
   -webkit-transition: color 150ms linear;
   -ms-transition: color 150ms linear;
@@ -68,50 +75,64 @@ h1:hover {
   text-decoration: none;
 }
 
-nav {
+.nav-bar {
   display: flex;
-  flex-direction: row;
-  position: fixed;
-  width: 100vw;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-bar {
   display: flex;
   flex-direction: row;
-  width: 100vw;
-  margin: auto;
+  justify-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 98vw;
   align-items: center;
+  mix-blend-mode: difference;
+}
+
+.main-bar-2 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 98vw;
+  align-items: flex-start;
+  mix-blend-mode: difference;
+  padding-top: 40px;
+}
+
+.biggerText {
+  font-size: 2.5em;
 }
 
 .course {
   display: flex;
   justify-content: left;
-  margin-right: auto;
-  padding-left: 15px;
+  width: 33vw;
 }
 
 .title {
   display: flex;
+  width: 33vw;
   justify-content: center;
   text-align: center;
-  padding-right: 90px;
 }
 
-.title h1 {
+/* .title h1 {
   display: flex;
   text-align: center;
   justify-content: center;
   font-size: 2.5em;
-}
+} */
 
 .logo {
   display: flex;
-  margin-left: auto;
-  padding-right: 15px;
-}
-
-.logo h1 {
-  margin-left: auto;
+  width: 33vw;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 ul {
@@ -120,6 +141,7 @@ ul {
   list-style: "⎯⎯";
   /* padding: 50px; */
 }
+
 .alumns-list ul {
   display: flex;
   /* flex-direction: column; */
@@ -135,14 +157,20 @@ ul {
   bottom: 20px;
   padding: 50px;
 }
+
 .alumns-list li {
-  padding-right: 35px;
+  padding-right: 39px;
   font-size: 35px;
   font-family: "Eina 04 Light";
   /* padding: 15px; */
 }
+
 .alumns-list li:nth-child(1) {
   list-style-type: none;
+}
+
+.alumns-list-specialities {
+  display: none;
 }
 
 h2 {
@@ -168,8 +196,61 @@ h2 {
 }
 
 .lozad {
-  width: 110%;
-  height: 110%;
+  width: 105%;
+  height: 105%;
+}
+
+/* fade in entry website */
+.alumns-container {
+  animation: fadeIn 4.2s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Transform Scale pics when Hover */
+
+.lozad:hover {
+  animation: scale 0.5s;
+}
+
+@-webkit-keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 video::-webkit-media-controls {
@@ -180,25 +261,42 @@ footer {
   display: flex;
   width: 100vw;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 640px) {
+  /* Header nav section */
   h1 {
     font-size: 15px;
   }
 
-  .title h1 {
-    font-size: 19px;
+  .course {
+    padding-left: 15px;
   }
 
+  .title h1 {
+    font-size: 17px;
+  }
+
+  .biggerText {
+    font-size: 1em;
+  }
+
+  .logo {
+    padding-right: 15px;
+  }
+
+  /* Alumns  */
+
   .alumns-container {
-    justify-content: left;
+    justify-content: center;
+    padding-bottom: 50px;
   }
 
   .alumn {
     padding-top: 10px;
-    width: 50%;
+    width: 47%;
     height: 187px;
     align-items: center;
     justify-items: center;
@@ -209,20 +307,42 @@ footer {
     align-self: center;
   }
 
+  /* Alumns text section */
+
+  .lists {
+    display: flex;
+    flex-direction: row;
+  }
   .alumns-list {
     justify-content: left;
     padding-left: 15px;
-    width: 80%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    width: fit-content;
   }
 
-  .alumns-list li {
+  .alumns-list-specialities {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .alumns-list li,
+  .alumns-list-specialities li {
     flex-direction: column;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
     list-style-type: none;
   }
 
-  footer {
+  .footer-link {
+    padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .footer-link a,
+  .footer-link p {
+    font-size: 13px;
   }
 }
