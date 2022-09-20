@@ -622,9 +622,12 @@ const data = [
   },
 ];
 
+const observer = lozad();
+observer.observe();
+
 //video play/pause on hover
 function video() {
-  let alumnVideo = document.querySelectorAll(".vid");
+  let alumnVideo = document.querySelector("#lozad");
   allProducts.forEach((vid) => {
     // Adding play/pause the video
     alumnVideo.addEventListener("mouseover", function (e) {
@@ -649,7 +652,6 @@ function getAllNames(namesArray) {
 
   let fillTxt = document.querySelector(".alumns-list").innerHTML;
   console.log(fillTxt);
-  let filledTxt = "";
 
   for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
