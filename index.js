@@ -8,6 +8,7 @@ const data = [
       "Nassos Importants és un projecte editorial que pretén qüestionar la manera en què percebem una part del físic que no encaixa en la definició de bell, en concret, els nassos fora del comú. El projecte parteix de generar el nou concepte Nas Important sota el qual s'acull a tothom que algun cop hagi donat més importància del compte a l'aspecte físic del seu nas. A partir del diàleg i observació d'aquesta nova comunitat es recopilen una sèrie d'històries que revaloren el fet de posseir un nas important fugint dels estereotips i connotacions històriques negatives que s'investiguen prèviament. Aquest treball dona lloc a un àlbum il·lustrat creat amb històries reals de persones amb nas important que aporten un nou enfocament als nassos amb aquestes singulars característiques, amb l'objectiu de canviar la visió que es té sobre aquests.",
     TIPOLOGIA: "Visual",
     SRC: "aina-gonzalo",
+    SRCVideo: "aina-gonzalo",
   },
   {
     ALUMNE: "Anaïs Llop Nexon",
@@ -16,6 +17,7 @@ const data = [
       "Resilience, una recerca i experimentació enfocada en l'aplicació del vidre en el món de la joieria contemporània, mitjançant la creació d'una col·lecció de peces de vidre realitzades des del viatge introspectiu que vaig experimentar durant la pandèmia. A través del qual vaig efectuar una anàlisi anímica i emocional, identificant dues etapes: el caos i la resiliència, les quals transcendiran mitjançant dos conceptes: unwearable i wearable en la meva joieria, generant una metafòrica transformació de la pandèmia de manera poètica i curativa.",
     TIPOLOGIA: "Visual",
     SRC: "anais-llop",
+    SRCVideo: "anais-llop",
   },
   {
     ALUMNE: "Clara-Tanit Arqué Cardona",
@@ -32,6 +34,7 @@ const data = [
       "Les pel·lícules interactives és un camp dins de l'àrea dels videojocs sobre el qual he volgut profunditzar i expandir els meus coneixements. Aquest projecte, ANGST, té en compte el procés necessari per generar videojocs interactius a través de contes i relats d'Edgar Allan Poe. El subgènere dels videojocs s'enllaça amb la cinemàtica per crear una nova forma d'entreteniment, barrejant la literatura amb el videojoc. L'objectiu d'aquest projecte és obtenir nous coneixements sobre aquesta àrea de la indústria del videojoc. Un àmbit que va més enllà de les convencions dels videojocs 3D convencionals.",
     TIPOLOGIA: "Visual",
     SRC: "claudia-vilanova",
+    SRCVideo: "claudia-vilanova",
   },
   {
     ALUMNE: "Eloi Arnal Mestre",
@@ -40,6 +43,7 @@ const data = [
       "Singular és un projecte d'investigació que neix amb l'objectiu de reconnectar l'ésser humà al món tèxtil i conscienciar sobre la influència de la roba sobre la nostra imatge. La investigació es formalitza en format col·lecció càpsula, és a dir a través de la realització d'un seguit de peces tèxtils vinculades a l'entorn natural. Aquestes peces mitjançant la monocromia, el patronatge i les matèries primeres, generen un discurs atemporal que critica l'actualitat. L'atemporalitat es fa visible al capturar i enregistrar el vincle entre l'ésser i la peça tèxtil en entorns naturals, mitjançant la fotografia i el videoart com a processos creatius i expressius. El projecte actua com a catalitzador de consciència, fent present importància de l'ésser humà com a individu únic i singular.",
     TIPOLOGIA: "Visual",
     SRC: "eloi-arnal",
+    SRCVideo: "eloi-arnal",
   },
   {
     ALUMNE: "Gabriela Dalforno Rodríguez",
@@ -56,6 +60,7 @@ const data = [
       "EJE Z és el títol del curtmetratge, el tema principal del qual és el pla dimensional del subconscient. Té com a objectiu entretenir els espectadors a través d'un relat reflexiu que s'endinsa a intentar definir i il·lustrar aquest pla invisible però estructurat. Es tracta d ́un curtmetratge d ́uns 15 minuts, on es combinen tecninques cinematogràfiques com la filmació, l ́animació 3D, i la il·lustració digital per fotogrames.",
     TIPOLOGIA: "Visual",
     SRC: "juan-esteban-salamanca",
+    SRCVideo: "juan-esteban-salamanca",
   },
   {
     ALUMNE: "Júlia Fernández Hermoso",
@@ -72,6 +77,7 @@ const data = [
       "“El Saber de les Flors” planteja una exposició fotogràfica que reflecteix la indústria de la flor, i els elements que integren aquesta des que és plantada fins que arriba a la floristeria. Aquesta indústria, com totes les indústries, implica màquines, sorolls i grisos, consum, explotació. Això no és res que no es coneixi, però el que és significant és que aquest ambient es relacioni amb les flors i plantes. Aquest nexe és molt desconegut per la majoria de gent. Es concep una flor com a delicada, bella, acolorida, i es relaciona amb sentiments com l'amor i l'alegria. La narrativa d'aquest projecte s'articula a partir d'una exposició que permet mostrar aquests dos mons tan distants en un mateix espai mitjançant dues tècniques d'impressió amb resultats molt diferents. La primera tècnica, la impressió digital, mostra els diferents passos que conté la producció de flors i de planta de manera objectiva, dura i documental. La segona tècnica, l'antotípia, mostra la mateixa flor i tot el que representa com element estètic, ornamental i sentimental. L'antotípia és una de les alternatives d'impressió més respectuoses amb el medi ambient. La tècnica aprofi ta les propietats fotosensibles de les plantes per revelar imatges amb un positiu imprès en un acetat, és una impressió per contacte a l'exposició de llum solar.",
     TIPOLOGIA: "Visual",
     SRC: "laia-badenas",
+    SRCVideo: "laia-badenas",
   },
   {
     ALUMNE: "Laia Gombau Martínez",
@@ -80,6 +86,7 @@ const data = [
       "Disseny d'una peregrinació laica per l'entorn natural del poble de la Mata (Comarca dels Ports, Castelló) en la qual es planteja una acció performativa per una de les muntanyes del seu terme. En aquesta acció es realitzen diverses intervencions que relacionen la història dels habitants del poble amb el territori, fet que ajuda a canviar la mirada que tenim sobre la natura i la manera en què transitem per ella.",
     TIPOLOGIA: "Visual",
     SRC: "laia-gombau",
+    SRCVideo: "laia-gombau",
   },
   {
     ALUMNE: "Marina Mas Puig",
@@ -88,6 +95,7 @@ const data = [
       "Gea és un projecte editorial que neix amb la finalitat de promoure la cultura local a través de pràctiques responsables amb l'entorn i el territori. L'editorial posa èmfasis en la  vinculació amb el km 0 i es presenta com una  editorial  nòmada  que  no  té  una  residència  permanent  fixa. Sempre en constant moviment, s'adapta a les singularitats de les localitats que concorre, per crear publicacions úniques fent un ús racional dels recursos naturals que aquell territori ofereix i col·laborant amb artistes, artesans i entitats de la zona. La proposta s'articula al voltant de la producció de publicacions independents en format làmina en les quals tant el contingut com la matèria primera que fa de suport han estat fabricades en relació al context específic del territori i no poden desvincular-s'hi. En definitiva, quan l'editorial es mou, les seves publicacions es transformen amb ella.",
     TIPOLOGIA: "Visual",
     SRC: "marina-mas",
+    SRCVideo: "marina-mas",
   },
   {
     ALUMNE: "Marta Castillo Peribáñez",
@@ -96,6 +104,7 @@ const data = [
       "Giftwell és una app dissenyada perquè els usuaris comparteixin la seva felicitat mitjançant el regal a partir de la creació de relacions de benefici comú entre persones.  Trobar el regal perfecte en ocasions especials no sempre és fàcil. A partir d'una anàlisi de les necessitats tant de la persona que regala com de qui rebrà el regal, s'ha desenvolupat aquesta plataforma digital que dona accés a una llista de desitjos universal, amb l'objectiu de facilitar aquest procés i eliminar la pregunta persistent de què regalar a un ser estimat.  ",
     TIPOLOGIA: "Visual",
     SRC: "marta-castillo",
+    SRCVideo: "marta-castillo",
   },
   {
     ALUMNE: "Martina Duran Giné",
@@ -104,6 +113,7 @@ const data = [
       "L'objectiu d'aquest projecte és crear una col·lecció editorial formada per quatre llibres que experimentin i reflexionin sobre el color amb relació a les estacions de l'any. Els colors de col·lecció són: verd per a la primavera, groc per a l'estiu, vermell per a la tardor i blau per a l'hivern.En cada cas la intenció és que els llibres potenciïn el benestar. Aquest projecte presenta la primera fase de l'editorial, centrada en el verd.En cada edició el producte consisteix en la publicació de dos llibres: un de butxaca i un altre de més gran perquè es pugui gaudir dels llibres en diferents situacions de lectura.La particularitat de la col·lecció rau en la importància de les qualitats visuals, però també olfactives, auditives i tàctils de les publicacions.",
     TIPOLOGIA: "Visual",
     SRC: "martina-duran",
+    SRCVideo: "martina-duran",
   },
   {
     ALUMNE: "Meritxell Agulló Montells",
@@ -112,6 +122,7 @@ const data = [
       "El meu projecte consisteix a filmar un curtmetratge que és una oda a la complicitat, Serà un curtmetratge on no hi ha una comunicació verbal literal entre els personatges, on la comunicació entre ells és visual, física i a través de sons. Faig aquesta peça com un homenatge als germans, la infància, el silenci i el joc. De nou, una oda a la complicitat. Així doncs, aquesta és la història de dues germanes que passaven temps juntes, jugant a la casa del seu jardí, i la importància que tenen les mandarines per a elles.",
     TIPOLOGIA: "Visual",
     SRC: "meritxell-agullo",
+    SRCVideo: "meritxell-agullo",
   },
   {
     ALUMNE: "Núria Martínez Simó",
@@ -136,6 +147,7 @@ const data = [
       "Aquest projecte d'investigació, es basa en una peça audiovisual. Que té com eix central, la tradició de la Matança, concretament la Matança Mallorquina. Aquest reflexiona sobre les qüestions existencials que l'envolten i, ho plasma en una peça caracteritzada per les metàfores visuals i els seus simbolismes, que tenen com a objectiu, crear una experiència immersiva i sensorial. Es basa en quatre pilars, per així poder tractar el tema des d'un punt de vista subjectiu però directe, i per remarcar la relació entre Mallorca i la Matança. Els quatre pilars són: el sacrifici, la purificació, la terra i la celebració. Amb la unió d'aquests quatre conceptes, interpret la meva percepció contemporània de la tradició i la seva vinculació amb l'illa.",
     TIPOLOGIA: "Visual",
     SRC: "paula-mateu",
+    SRCVideo: "paula-mateu",
   },
   {
     ALUMNE: "Pedro Hita Exposito",
@@ -152,6 +164,7 @@ const data = [
       "Els NFT són un certificat de propietat i autenticitat sobre un contingut que pot ser digital o físic. Aquests tokens criptogràfics suportats a blockchain  tenen  múltiples  implicacions  en  el  món  de l'art actual. Aquesta memòria té com a objectiu  aproximar-se  al  concepte  d'art  NFT  des  de  diferents  perspectives  al  llarg  de  la  història  de  l'art  generatiu.  Entre  aquests  objectius  es  busca  aclarir  de  manera  pedagògica,  conèixer  els  conceptes  bàsics  de  la  tecnologia  blockchain,  aplicacions  tecnològiques  de  l'art  NFT  i  analitzar  referents  de  projectes  d'artistes  NFT.  Amb  tot  això,  es  busca  crear  una  col·lecció  d'art  generatiu NFT per aprendre com funciona aquest món digital. ",
     TIPOLOGIA: "Visual",
     SRC: "roberto-espinosa",
+    SRCVideo: "roberto-espinosa",
   },
   {
     ALUMNE: "Soren-Andrés Pérez Bosch",
@@ -160,6 +173,7 @@ const data = [
       "Aquesta novel·la gràfica pretén il·lustrar totes aquelles situacions que les persones LGBT han de fer front quan parlem de passing, haventde coexistir amb una normativitat que rebutja i nega les seves identitats individuals i la seva expressió personal de gènere. A través d'una sèrie d'entrevistes, s'han desenvolupat una sèrie de personatges que serveixen per poder mostrar aquests esdeveniments en primera persona i generar una reacció al lector, pretenent que prengui consciència i vegi l'existència d'identitats diverses que es troben més enllà d'allò establert i que no tenen visibilitat, aquesta és doncs, la intenció directa d'aquest projecte, dotar de visibilitat aquelles històries que el món pretén passar desapercebudes.",
     TIPOLOGIA: "Visual",
     SRC: "soren-andres",
+    SRCVideo: "soren-andres",
   },
   {
     ALUMNE: "Violeta Araujo Bofill",
@@ -184,6 +198,7 @@ const data = [
       "Aquest projecte pretén explicar i fer visible la història de quatre dones a través d'objectes que hagin estat amb elles durant tota la seva vida; partint de la idea que les nostres vides estan formades per records i memòries que s'acumulen a la nostra ment, però que, d'alguna manera, també estan agrupades, indirectament, en certs objectes. A part, s'aspira a fer visible el privilegi a través de la relació establerta entre objecte i persona. Així doncs, mitjançant entrevistes a dones majors de vuitanta anys i entenent l'objecte com un element que pot perdurar infinitament en el temps, però que les històries al seu voltant són efímeres ja que quan la propietària\r\ndesapareix així mateix ho fa la seva història, s'aspira a fer perdurar en el temps, també, les seves memòries. Demostrant i fent visible que els objectes posseeixen la capacitat d'albergar el llegat i el privilegi d'algú i viceversa.",
     TIPOLOGIA: "Cultura",
     SRC: "berta-gorriz",
+    SRCVideo: "berta-gorriz",
   },
   {
     ALUMNE: "Eugenia Prenafeta Oriach",
@@ -200,6 +215,7 @@ const data = [
       "Trànsit, Transport, Trauma és un projecte que neix de l'experiència agònica del transport públic, viscuda durant set anys. En aquest projecte es planteja una nova forma de desplaçar-se la qual a través d'una acció literària metàfora i una acció sonora metonímica, estableix un nou vincle entre paisatge i passatger, permetent així a aquest últim habitar el trajecte i guarir el trauma generat pel transport públic a la persona i l'entorn. A través d'aquesta pràctica també es busca obrir la disciplina del disseny cap a àmbits com la literatura o l'art sonor, amb la finalitat de crear noves formes de creació en l'àmbit d'aquesta disciplina.",
     TIPOLOGIA: "Cultura",
     SRC: "josep-rojas",
+    SRCVideo: "josep-rojas",
   },
   {
     ALUMNE: "Laia Torrents Agudo",
@@ -208,6 +224,7 @@ const data = [
       "WEZI és el resultat de la creació de la identitat gràfica de l'agrupament Escolta Wé-Ziza de Barcelona. A través d'un procés de disseny col·laboratiu juntament amb les joves que conformen el grup Clan de l'Agrupament, hem treballat la identitat individual i col·lectiva tot creant la gràfica del Cau. A través dels tallers, hem reflexionat sobre la identitat de l'agrupament, passant per la creació d'un llenguatge visual que el definexi. Finalment, s'ha creat un kit per facilitar l'ús de la identitat creada en el futur.",
     TIPOLOGIA: "Cultura",
     SRC: "laia-torrents",
+    SRCVideo: "laia-torrents",
   },
   {
     ALUMNE: "Maria Vicente i Mascó",
@@ -216,6 +233,7 @@ const data = [
       "L'objectiu d'aquest treball és replantejar la narrativa de la història al voltant de la malaltia mental que fa temps que es manifesta entre els humans, alhora que questionar-se la exclusivitat o tendència recorrent de posar en mans de l'àmbit mèdic i sistemàtic un malestar psíquic personal (amb tot el que comporta). Aquest treball és una forma invertida d'embut que pretén conscienciar de la possibilitat de diversitat en l'acompanyament del malestar, responent a la idea de que les persones som també diverses i no simples paquets a tractar sota noms. Per tant és una intenció de posar de manifest aquesta multiplicitat, contraposada als mecanismes burocràtics, que es necessita per respondre a un tema tan extens i divers com són els diferents tipus de patiment mental/emocional/espiritual.",
     TIPOLOGIA: "Cultura",
     SRC: "maria-vicente",
+    SRCVideo: "maria-vicente",
   },
   {
     ALUMNE: "Marta Perarnau Masanes",
@@ -224,6 +242,7 @@ const data = [
       "Middletown: In Redefinition recupera el concepte de ciutat mitjana , i el redefineix sota les premises d'un cliché; un agent categoritzador que anul·la qualsevol forma d'identitat dissident d'aquest. L'objectiu d'aquesta redefinició és aterrar la Middletown a un territori concret, identificant-ne així les semblances que encaixen amb el cliché per a posteriorment posar-ne en valor les dissidències. Es tracta d'un projecte sobre la localitat i l'escalabilitat, que posa en valor mirades humanes en condicions d'habitabilitat diferents; les mirades dels territoriants.\r\n",
     TIPOLOGIA: "Cultura",
     SRC: "marta-perarnau",
+    SRCVideo: "marta-perarnau",
   },
   {
     ALUMNE: "Pol Vilalta Lenz",
@@ -232,6 +251,7 @@ const data = [
       "Stringer és una proposta de viatge de surf gestionada pels locals de cada zona. L'objectiu de l'encarti és regenerar els vincles perduts amb la zona terrenal durant aquest moviment. La manera de viatjar dels turistes, que ha estat influenciada per les millores de les infraestructures i mitjans de comunicació internacionals, s'ha traduït en una sèrie de conseqüències en les comunitat de cada localitat, incloent-hi les no-surfistes. En forma d'encarti, Stringer s'incorpora al mitjà de comunicació per excel·lència, dinamitzador d'aquestes noves facilitats de viatge: la revista.",
     TIPOLOGIA: "Cultura",
     SRC: "pol-vilalta",
+    SRCVideo: "pol-vilalta",
   },
   {
     ALUMNE: "Adrià Tejedor Baltasar",
@@ -240,6 +260,7 @@ const data = [
       "Re-Bosc neix amb la voluntat de voler crear un espai per joves gastronòmics d'Arts Culinaries amb poca experiència laboral, on puguin experimentar amb productes propers i de la terra, de km zero. Un espai modern, tranquil, natural, confortable, on la seva imaginació pugui creixer i desenvolupar-se. Conceptualment el Re-Bosc és un centre amb vocació social, dedicat a la innovació en cuina, a la millora dels hàbits alimentaris i a la valoració del patrimoni agroalimentari. És per aquest motiu que el treball es planteja des d'una reflexió i comparació dels projectes existents, on s'intenta extreure els conceptes que es creuen necessaris per intentar dissenyar un espai que sigui viable econòmica, funcionalment i sense abandonar la linea de valors de la marca Re-Bosc. La visió d'enfocar aquest treball és força tècnica per aconseguir una resultat realista, i poder veure la viabilitat del treball.",
     TIPOLOGIA: "Espais",
     SRC: "adria-tejedor",
+    SRCVideo: "adria-tejedor",
   },
   {
     ALUMNE: "Anna Marcó Vergés",
@@ -256,6 +277,7 @@ const data = [
       "BÈSTIA!, és una Intervenció crítica en un antic complex d'explotació animal per a la implantació d'un espai culinari basat en la dieta vegana. El projecte vol posar en dubte el model de vida actual i enfoca la problemàtica de la indústria càrnia i tots els seus derivats per formular una nova manera de viure. Busca des del veganisme i la cultura de la sostenibilitat, la reconciliació humana amb la natura i la moral. Tot presentant una estètica de contrastos, tant visuals com ètics que ressonen en l'usuari com un crit de canvi.",
     TIPOLOGIA: "Espais",
     SRC: "antoni-grabulosa",
+    SRCVideo: "antoni-grabulosa",
   },
   {
     ALUMNE: "Berta Casas Aisa",
@@ -264,6 +286,7 @@ const data = [
       "El projecte proposa la dignificació del vaixell d'Open Arms amb l'objectiu d'aconseguir un mínim confort emocional i funcional durant el procés de salvament i el temps que passi fins al retorn a terra ferma. A través de la creació d'un sistema de repòs mòbil i per mitjà de l'optimització de l'espai preexistent s'obté millorar les condicions d'habilitat dels seus usuaris. Generar intimitat mitjançant petits subespais, cadascun amb una funcionalitat diversa, i així obtenir la màxima adaptació per part de tots els perfils de rescatats.",
     TIPOLOGIA: "Espais",
     SRC: "berta-casas",
+    SRCVideo: "berta-casas",
   },
   {
     ALUMNE: "Clara Isern Badia",
@@ -288,6 +311,7 @@ const data = [
       "Amb els espais laborals en transició a causa de la pandèmia provocada per la SARS-CoV2 i la falta d'espais per a joves estudiants arreu de la ciutat de Barcelona, neix la idea de crear un hub, un centre col·laboratiu enfocat al treball i a l'estudi com a funcions principals. Dins de Climent trobaríem espais de treball pels actuals tele-treballadors i espais per a estudiants majors d'edat que busquen llocs condicionats i favorables on poder concentrar-se. També se li sumarien espais de producció amb impressores i demès material físic, i espais de lectura, descans i de vending. Aquest hub seria, de forma conceptual, un espai híbrid amb funcions diverses i canviants idea- des per a col·lectivitats que busquen entorns de col·laboració.",
     TIPOLOGIA: "Espais",
     SRC: "eva-ramon",
+    SRCVideo: "eva-ramon",
   },
   {
     ALUMNE: "Irene Díaz García",
@@ -296,6 +320,7 @@ const data = [
       "Al món de la dansa, no es té en consideració el confort del ballarí. Ja que trobem condicions una mica precàries, tant a sales d'escalfament i assaig com a vestuaris i escenaris. Aquest tipus de professió requereix moltes hores de treball dur, per tant, hi ha la necessitat de disposar de sales destinades per a la comoditat, el descans, i la recuperació entre les sessions d'entrenament. És una professió vocacional, que ho dóna tot per l'espectacle, que posa tota la seva passió a cada pas. Tot l'amor que ells tenen per la dansa, la dansa després no els hi torna. La dansa, al final de la trajectòria professional, sol deixar lesions sobretot a peus i espatlles. Per això, aquest projecte d'intervenció del espai existen al Citilab (Cornellà del Llobregat) tracta de cobrir aquesta necessitat de salut al ballarí. Oferint formació professional en unes instal·lacions proveïdes de zones que cobreixen tot aquest tipus de necessitats, comptant amb diferentes sales per a cada activitat, descans, escalfaments, gimnàs, fisioteràpia etc. Sempre tenint en compte una distribució òptima de l'espai, tant per a aquestes sales, com per als vestuaris o magatzems. Amb tot això es vol contribuir a una millor experiència d'usuari i també millorar la qualitat d'aquesta professió.",
     TIPOLOGIA: "Espais",
     SRC: "irene-diaz",
+    SRCVideo: "irene-diaz",
   },
   {
     ALUMNE: "Irene Terrón Pérez",
@@ -321,6 +346,7 @@ const data = [
       "A trenc de mar és un projecte comercial que consisteix en el disseny d'un restaurant de cuina catalana d'autor al far de Tossa de Mar. El projecte parteix de l'anàlisi històric i arquitectònic dels fars de Catalunya, per extreure'n les característiques generals, i demostrar que el projecte es podria aplicar a diversos fars degut la seva arquitectura similar. És el camí que s'ha emprat per arribar a la conclusió que el far de Tossa  de Mar és l'idoni per a aquest projecte.L'objectiu principal és crear una nova experiència gastronòmica. Com a objectius secundaris, trobem: fomentar el turisme de la zona, utilitzar productes locals i de temporada, emfatitzar l'acte de menjar i revaloritzar el paisatge. Com aEspanya hi ha molts fars deshabitats, aquesta podría ser una dinàmica a aplicar a diverses zones per fomentar el turisme i la gastronomia, com una xarxa de restaurants que potencien la gastronomia mediterrània.",
     TIPOLOGIA: "Espais",
     SRC: "laura-estrany",
+    SRCVideo: "laura-estrany",
   },
   {
     ALUMNE: "Laura Tierz Bueno",
@@ -329,6 +355,7 @@ const data = [
       "Vida i Oblit és una instal·lació efímera que vol presentar la por a ser oblidat com un camí per prendre consciència d'un mateix, mitjançant un recorregut experiencial per rememorar la vida on espai i usuari es retroalimenten. El projecte visibilitza el jo més pur a través d'un trajecte compost per quatre fases: EL NO-RES, on l'usuari percep una connexió principalment mental; EL BOSC, una sala hipòstila on el cos va prenent importància; EL JO, el retrobament de la ment amb el cos; i EL, QUÈ?, un espai de transició per tornar a la realitat. L'experiència viscuda a la instal·lació pretén descobrir nous punts de vista de la mort i estimular una conscienciació social que aporti reflexió i naturalització al tema. És a dir, que convidi a veure la mort com una vivència més.",
     TIPOLOGIA: "Espais",
     SRC: "laura-tierz",
+    SRCVideo: "laura-tierz",
   },
   {
     ALUMNE: "Lia Mizrahi Lasry",
@@ -346,6 +373,7 @@ const data = [
       "Kumon promou una nova educació que valora l'autoritat de l'infant i potencia les seves capacitats. Aquest objectiu ha portat a detectar una manca de coherència entre aquest i l'espai on es desenvolupa. Aquest projecte pretén revalorar la importància dels espais educatius Kumon com espais d'aprenentatge i dissenyar un nou tipus de context acadèmic, on la premissa sigui el caràcter educatiu dels seus espais per sobre de l'economia o la funcionalitat d'aquests. Tracta de crear un diàleg coherent entre la pedagogia i el disseny. L'objectiu principal ha estat estudiar referents que ja funcionen en altres països i aplicar-los a un dels centres locals, el de L'Hospitalet Centre. Per tant, s'ha buscat un cas concret on realitzar una proposta de reforma per projectar un exemple d'aquest tipus d'espai educatiu com es Kumon. La metodologia que s'ha usat en el desenvolupament del projecte ha estat un enfocament més dinàmic en les activitats realitzades al centre tenint en compte els objectius de la metodologia i les necessitats que tant alumnat com treballadors presenten enfront l'espai on es troben, facilitan l'execució de les tasques a que cadascú se'ls hi correspón.",
     TIPOLOGIA: "Espais",
     SRC: "marc-donaire",
+    SRCVideo: "marc-donaire",
   },
   {
     ALUMNE: "Mariona Genoveva Rius Maza",
@@ -363,6 +391,7 @@ const data = [
       "Reobre neix de la idea de crear un espai d'habitatges accessibles a aquella part més oblidada de la població a l'hora d'oferir un lloc on amarrar les arrels per créixer al món laboral. Reobre neix de la idea de crear un espai d'habitatges accessibles a aquella part més oblidada de la població a l'hora d'oferir un lloc on amarrar les arrels per créixer al món laboral, els joves. La intenció que proporciona aquest projecte és dur a terme un espai d'habitatges amb condicions òptimes, perquè l'habitant no deixi de tenir qualitat de vida, alhora que un espai on poder emancipar-se i créixer al món laboral. ",
     TIPOLOGIA: "Espais",
     SRC: "noelia-candon",
+    SRCVideo: "noelia-candon",
   },
   {
     ALUMNE: "Núria Carrascal Corbera",
@@ -380,6 +409,7 @@ const data = [
       "Aquest projecte proposa rehabilitar una construcció històrica del barri de la Taxonera per donar servei a les entitats. El barri de la Taxonera va créixer al voltant de la, ara abandonada, Bòbila de maons Carmen. El barri té una gran carència d'instal·lacions públiques per les entitats i associacions. Amb aquest projecte es pretén rehabilitar l'edifici per crear un espai autogestionat per les associacions del barri, conservant alhora la seva memòria històrica. La meva vinculació amb aquest projecte, a més de com a veïna de la Taxonera, és com a monitora de l'esplai del barri, una de les entitats que necessiten d'aquest espai per desenvolupar la seva activitat.",
     TIPOLOGIA: "Espais",
     SRC: "raquel-calvo",
+    SRCVideo: "raquel-calvo",
   },
   {
     ALUMNE: "Sara Barrull i Berna",
@@ -388,6 +418,7 @@ const data = [
       "El projecte planteja la reforma d'un molí ubicat a les illes Canàries, concretament a l'illa de Fuerteventura. Aquests edificis, actualment en desús, han caigut en l'oblit de les generacions actuals i futures i s'exhibeixen com una mostra d'allò que va ser en un passat, però que ja no podrà tornar a ser. A través d'una intervenció en un dels molins, es provoca un canvi en el seu ús per transformar-lo en un habitatge dirigit a creatius, on podran viure durant un període de temps limitat, per tal de poder ubicar-se en un lloc aïllat que suposi un moment d'inspiració. Per tant, es genera refugi alhora que un habitatge domèstic i de treball. L'objectiu principal és generar una nova vida rememorant el passat, la seva història i la seva forta identitat. Respectar allò que van ser, l'espai físic que ocupen i el context social i geogràfic actual.",
     TIPOLOGIA: "Espais",
     SRC: "sara-barrull",
+    SRCVideo: "sara-barrull",
   },
   {
     ALUMNE: "Sònia Bragulat Casadejust",
@@ -396,6 +427,7 @@ const data = [
       "La inclusió social i la qualitat de vida de les persones està directament relacionada amb el suport i els vincles socials que desenvolupen al llarg de la seva vida.Tenim la necessitat d'establir relacions amb altres persones i de pertànyer a una xarxa relacional,  de qualsevol tipus, per establir certs nivells de benestar personal i social. “Soledat” i “solitud” s'utilitzen sovint com a sinònims, però la soledat és el sentiment subjectiu de sentir-se sol tot i no estar-ho, la solitud, en canvi, es relaciona amb el fet objectiu d'estar o de viure sol/a. La solitud pot implicar soledat, però no necessàriament. Tot i així hi ha un risc de que aquesta solitud objectiva acabi portant a un aïllament involuntari i acabi perjudicant a la salud mental de les persones. És a partir d'aquest concepte que s'inicia la idea d'aquest  TFG, amb la  finalitat de transformar una de les galeries de la Presó Model de Barcelona en habitatges socials unipersonals, buscant la conexió entre zones privades i zones comunes, sempre respectant i desmentint el tabú que suposa la soledat, amb la necessitat de vinculació voluntària o involuntaria que ens fa tenir una qualitat de vida millor.",
     TIPOLOGIA: "Espais",
     SRC: "sonia-bragulat",
+    SRCVideo: "sonia-bragulat",
   },
   {
     ALUMNE: "Ana Florencia Fillol Porro",
@@ -404,6 +436,7 @@ const data = [
       "Pura és una marca que sorgeix amb I'objectiu de contribuir amb el medí ambient i la salut del coosumidor, especialitzada en productes lactis. Tant la producció com els aliments són de proximitat i naturals. Són envasos sostenibles, reutilitzables, compostables i alguns d'ells són d 'ús secundari després del seu consum. Aquests productes són procedents de diverses comarques d 'Espanya, amb l' objectiu de limitar les necessitats de transport i portar productes frescos. A més, aquests productes a diferència d'uns altres, volen fer reflexionar al consumidor, ja que quan un producte compleix la seva funció, es conveneix en residu, i així és com Pura apona idees a través del seu disseny gràfic i gamma de productes en els supermercats, allargant per exemple, la seva usabilitat i ajudant a millorar el nostre planeta.",
     TIPOLOGIA: "Gràfic",
     SRC: "ana-florencia-fillol",
+    SRCVideo: "ana-florencia-fillol",
   },
   {
     ALUMNE: "Andrea Fernández Camps",
@@ -412,6 +445,7 @@ const data = [
       "Hi ha moltes marques d'infusions en el mercat, però la majoria obtenen el producte de països llunyans on és més abundant. REMEIERES es centra en plantes autòctones amb l'objectiu de donar-les valor, i es dirigeix a botigues especialitzades en infusions amb un públic que, habituat al consum d'herbes, busca ser més amable amb l'ecosistema. El projecte consisteix a generar la identitat de la marca i dissenyar els envasos de les infusions. Es divideix en dues línies: la de plantes soltes, que es troben cadascuna per individual i a trossejades per a poder preparar la infusió, i la de barreges, és a dir, vàries plantes barrejades amb la finalitat d'aconseguir un bon sabor i que es troben dosificades en bosses. Per complementar-lo també s'ha creat una web on es donarà a conèixer en detall la informació sobre cadascuna de les plantes de les infusions.",
     TIPOLOGIA: "Gràfic",
     SRC: "andrea-fernandez",
+    SRCVideo: "andrea-fernandez",
   },
   {
     ALUMNE: "Andrea Lafuente Faucón",
@@ -420,6 +454,7 @@ const data = [
       "Entre Versos és un projecte editorial que pretén experimentar amb la direcció d'art i la poesia, materialitzat en un llibre que té com a temàtica principal la pèrdua. L'objectiu d'aquest treball és crear el contingut fotogràfic a partir de poemes de diferents autors que parlin sobre la pèrdua esmentada, així com desenvolupar una peça editorial basada en el concepte de pèrdua com a tal, sigui de manera literal o simbòlica. Es treballa des de la conceptualització, la creació i edició dels continguts, la direcció d'art, l'estructura, el disseny i la producció. La publicació serà un relat visual acompanyat de vuit poemes que parlen sobre la pèrdua, en l'àmbit de l'amor, d'un ésser estimat o d'un mateix. Una metàfora visual sobre la pèrdua dins la poesia.",
     TIPOLOGIA: "Gràfic",
     SRC: "andrea-lafuente",
+    SRCVideo: "andrea-lafuente",
   },
   {
     ALUMNE: "Antoni Salom Caldés",
@@ -436,6 +471,7 @@ const data = [
       "En els darrers cinc anys, els casos d'ITS (Infeccions de Transmissió Sexual) han augmentat considerablement entre la població, especialment entre els joves, provocant que el nombre de contagis es dispari. El projecte parteix de la manca d'educació sexual que existeix actualment al nostre país. La manca de campanyes de conscienciació, la manca dactuació per part de ladministració, així com el desús del preservatiu com a mesura de protecció són altres factors que influeixen en lincrement de casos d'ITS. ITS a problema engloba una campanya off-line i on-line, acompanyada d'una web informativa i diferents suports de comunicació. El seu objectiu és informar, prevenir i conscienciar sobre els perills que tenen aquestes infeccions. És recordar-ne l'existència.",
     TIPOLOGIA: "Gràfic",
     SRC: "beatriz-llorca",
+    SRCVideo: "beatriz-llorca",
   },
   {
     ALUMNE: "Carlota Bartolí Cardoner",
@@ -444,6 +480,7 @@ const data = [
       "Brief-in és una plataforma online a través de la qual s'ofereixen serveis professionals de disseny gràfic. És una xarxa internacional de contactes creatius enfocada principalment al disseny gràfic i altres disciplines relacionades directament amb aquest.",
     TIPOLOGIA: "Gràfic",
     SRC: "carlota-bartoli",
+    SRCVideo: "carlota-bartoli",
   },
   {
     ALUMNE: "Elisabeth Bosch Salles",
@@ -452,6 +489,7 @@ const data = [
       "MUD MOOD dóna nom a un projecte basat en la ceràmica com una activitat manual terapèutica. El projecte es basa en la creació del disseny d'identitat i la comunicació d'un estudi de ceràmica on s'imparteixen tallers i arteteràpia d'una manera diferent. És un lloc on les persones poden anar a rebre teràpia mitjançant una activitat manual i creativa.\r\n",
     TIPOLOGIA: "Gràfic",
     SRC: "elisabeth-bosch",
+    SRCVideo: "elisabeth-bosch",
   },
   {
     ALUMNE: "Gerard Olivella Gonzalez",
@@ -460,6 +498,7 @@ const data = [
       "Reimaginar la figura de la dona dins de la màgia, des d'un paper protagonista, que exerceix la professió en primera persona i que aporta una nova manera d'interpretar la màgia i comprendre-la en l'àmbit gràfic, redissenyant així la normativitat identitària d'aquesta professió.",
     TIPOLOGIA: "Gràfic",
     SRC: "gerard-olivella",
+    SRCVideo: "gerard-olivella",
   },
   {
     ALUMNE: "Irene Extremeño Badia",
@@ -476,6 +515,7 @@ const data = [
       "Per tal d'assolir la descarbonització, una proposta que apareix amb alta freqüència és la transició a una xarxa d'autoconsum renovable. Aquest projecte s'imagina a Radiante, una empresa de fabricació i instal·lació de plaques solars. El projecte consisteix en el disseny de la seva identitat visual i el plantejament de la campanya d'atracció de nous clients. L'objectiu del projecte implica desmentir les concepcions errònies que es te de l'energia solar a Espanya i incentivar l'adopció de fonts d ́energia renovables i descentralitzades.",
     TIPOLOGIA: "Gràfic",
     SRC: "nil-vila",
+    SRCVideo: "nil-vila",
   },
   {
     ALUMNE: "Óscar Calzada Asenjo",
@@ -492,6 +532,7 @@ const data = [
       "ROOTING és un projecte de naming i identitat per a una marca de taules de skate. El projecte gràfic es compon del logo, del disseny de les taules i del vídeo de presentació de la marca. Aquesta marca pretén relacionar als patina- dors amb la ciutat en la qual patinen, expressant visualment l'especial connexió que els uneix. Aquest primer set de taules està dedicat a Barcelona i el fil conductor del vídeo és el dia a dia de dos patinadors estrangers que s'han establert a Barcelona per la seva afició al skate, mostrant els llocs que habitualment freqüenten. Les connexions no sols es basen en els patinadors, es basen també en la ciutat i les seves característiques per a practicar aquest esport. Barcelona és considerada la ciutat europea del skate per la gran quantitat de patinadors establerts i al seu torn és una ciutat molt visitada per aquest col·lectiu.",
     TIPOLOGIA: "Gràfic",
     SRC: "pau-morato",
+    SRCVideo: "pau-morato",
   },
   {
     ALUMNE: "Pol Capdevila Mora",
@@ -508,6 +549,7 @@ const data = [
       "Creació d'una aplicació per a crear la NFT més col·laborativa del planeta. El projecte consta del disseny de la UI i d'un Teaser en format video.",
     TIPOLOGIA: "Gràfic",
     SRC: "ruben-cordoba",
+    SRCVideo: "ruben-cordoba",
   },
   {
     ALUMNE: "Violeta Cirici Calduch",
@@ -516,6 +558,7 @@ const data = [
       "Creix la preocupació social pels processos de fabricació de la moda, tant pel que fa a les matèries primeres i als sistemes de transport com pel que fa a les condicions laborals de milions de treballadors i treballadores del sector. El projecte tracta la creació de la identitat d'una marca de moda des de l'ètica social i la sostenibilitat en tots els seus suports. La proposta que presentem vol ser una resposta, modesta però honesta, a totes aquestes qüestions.\r\n",
     TIPOLOGIA: "Gràfic",
     SRC: "violeta-cirici",
+    SRCVideo: "violeta-cirici",
   },
   {
     ALUMNE: "Ángela Maria Baeza Álvarez",
@@ -524,6 +567,7 @@ const data = [
       "A  partir d'una malaltia crònica pròpia he vist l'oportunitat per a anar més enllà dels productes sobre salut femenina disponibles en el mercat. Conec l'entorn mèdic com a pacient molt de prop i em resultaria amb facilitat recollir dades i detalls. Moltes pacients pateixen molt dolor en la zona vulvar i vaginal, i excepte medicació i tractaments elevats no és molt accessible pal·liar el dolor i el malestar. Pel que vaig decidir dissenyar uns objectes que millorin la salut de la zona intima com a tractament i prevenció, i no amb visió merament sexual. Cunnus és una proposta per a millorar la salut i la qualitat de vida de moltes dones, a través del disseny de dos objectes de silicona per a ús íntim.",
     TIPOLOGIA: "Producte",
     SRC: "angela-maria-baeza",
+    SRCVideo: "angela-maria-baeza",
   },
   {
     ALUMNE: "Anna Vilageliu Porlein",
@@ -532,6 +576,7 @@ const data = [
       "Aquest projecte es desenvolupa creant un objecte per a la llar que sorgeix de la combinació de dos mobles que han quedat en desús i que han evolucionat fins a l'actualitat d'una manera reinventada. Aquests són el Tocador i el Galant de nit, dos objectes que representaven òptimament la separació binària de gènere i dictaven com ha d'actuar cadascú. L'objectiu és identificar, fer visible i representar tota classe de diversitat física i de pensament. A partir d'una estètica neutre, pura i funcional, conformada per mòduls, permet que cadascú es personalitzi l'objecte, mitjançant forma i volum, a partir dels seus gustos i l'expressió de gènere que desitgi. Intenta no limitar al públic en cap sentit i que la forma del producte es conformi a partir de la persona, no la persona a partir del producte.",
     TIPOLOGIA: "Producte",
     SRC: "anna-vilageliu",
+    SRCVideo: "anna-vilageliu",
   },
   {
     ALUMNE: "Claudia Gonzalez Rodiel",
@@ -540,6 +585,7 @@ const data = [
       "La proposta de disseny presentada en aquest projecte parteix d'una inquietud personal en vers la contaminació de les nostres ciutats. Aquesta, va adreçada a conscienciar i solucionar la contaminació que generen les burilles del tabac a Barcelona. Per poder dur  a terme aquest projecte  correctament, és necessari desenvolupar-lo en tres fases: investigació, experimentació i aplicació. En la primera fase, ens centrem a investigar els residus que trobem a Barcelona, la a seva reciclabilitat, quin percentatge contaminant tenen i si poden transformar-se en un nou material. La fase d'experimentació, consisteix en la creació d'un material de producció pròpia dut a  terme mitjançant el residus de les burilles del tabac. Finalment, focalitzar-nos en el disseny del producte creat a partir del material obtingut, amb la finalitat de crear una economia circular.",
     TIPOLOGIA: "Producte",
     SRC: "claudia-gonzalez",
+    SRCVideo: "claudia-gonzalez",
   },
   {
     ALUMNE: "Eliseu Poch i Forner",
@@ -588,6 +634,7 @@ const data = [
       "Social Gear és un treball de recerca que ha resultat en la creació d'un dispositiu que sutilitza com a mètode de suport als processos de disseny. La seva funció principal és ampliar els contextos en què es desenvolupa l'entorn d'un projecte creatiu, generalment en les etapes d'immersió, incubació i intuïció d'un projecte. Fent de pont connector entre el projecte, l'equip creatiu i el client, Social Gear permet, mitjançant la creació de preguntes i el diàleg, l'exploració cap a altres àmbits en el context en què es desenvolupa el camp del projecte.",
     TIPOLOGIA: "Producte",
     SRC: "juan-manuel-valencia",
+    SRCVideo: "juan-manuel-valencia",
   },
   {
     ALUMNE: "Laura Buján González",
@@ -596,6 +643,7 @@ const data = [
       "Aquest projecte pretén reflexionar sobre l'objecte i el que transmet. Què passa si un objecte és poètic i funcional en igual mesura? Es desenvolupa una metodologia pròpia per poder dissenyar una col·lecció d'objectes per la llar, assequible per l'usuari de classe treballadora que compra mobles a Ikea, a parir de poesia extreta de les antologies poètiques que avui estan estudiant els instituts. Aquesta metodologia, però, és extrapolable a altres narratives, poesies objectes. Se n'han dissenyat quatre, però en podrien ser infinits, i sempre serien diferents. Aquesta metodologia variarà lleument sempre en funció del dissenyador, així com amb el projecte.\r\nDurant el procés, es planteja què vol dir funcionalitat, què vol dir poètica, i què vol dir poeticofuncionalitat.",
     TIPOLOGIA: "Producte",
     SRC: "laura-bujan",
+    SRCVideo: "laura-bujan",
   },
   {
     ALUMNE: "Lluis Jordana Montesinos",
@@ -604,6 +652,7 @@ const data = [
       "WatchLepsy és el cúmul de prop de 2 anys d'investigació sobre com poder preveure les crisis epilèptiques. Aplicant la tecnologia que els smartwatch ens proporcionen, s'ha pogut dissenyar un dispositiu que permeti mesurar a temps real les probabilitats de patir una crisi.",
     TIPOLOGIA: "Producte",
     SRC: "lluis-jordana",
+    SRCVideo: "lluis-jordana",
   },
   {
     ALUMNE: "Noelia Otero Nuñez",
@@ -612,6 +661,7 @@ const data = [
       "Es va realitzar un projecte per poder crear Instachar, un filtre basat en biocarbó que s'implementa a la part inferior del cos dels testos, per així aportar nutrients a l'arrel dels cultius i millorar la qualitat de l'aigua residual del reg. Per això, es va dissenyar una modificació al Forn 2 dels Vivers San Campio i d'aquesta manera poder obtenir biocarbó procedent de residus hortícoles; aquest biocarbó es va prémer per obtenir Instachar. Es va observar una millora en els resultats obtinguts al cultiu d'Anthurium Turenza comparant les plantes culti-vades amb Instachar i les cultivades sense el filtre de biocarbó.",
     TIPOLOGIA: "Producte",
     SRC: "noelia-otero",
+    SRCVideo: "noelia-otero",
   },
   {
     ALUMNE: "Paula Tañá Valdivieso",
@@ -620,6 +670,7 @@ const data = [
       "El ballet és un estil de dansa clàssica on els moviments estan controlats per absolutament tot el cos, amb unes tècniques i passos molt concrets utilitzant cada un de les parts i extremitats, amb una dinàmica muscular i mental que s'expressa a partir de moviments. L'element principal són les puntes de ballet on la seva funció és ajudar als ballarins a posar-se completament drets i fluir amb el seu cos a la vegada que la música. Com a conseqüència, per les professionals, que hi dediquen moltes hores, els hi crea lesions i malalties cròniques per culpa de l'impacte directa en contacte amb el terra. Aquest tema és el que tracto en el meu treball de final de grau, plantejant un nou disseny de la punta de ballet per l'entrenament, modificant materials i formes per aconseguir reduir l'impacte, lesions i sigui més agradable el contacte amb el peu.",
     TIPOLOGIA: "Producte",
     SRC: "paula-tana",
+    SRCVideo: "paula-tana",
   },
 ];
 
@@ -627,14 +678,12 @@ const data = [
 // const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
 // observer.observe();
 
-const el = document.querySelector("lozad");
+const el = document.querySelector("#lozad");
 const observer = lozad(el);
 observer.observe();
 
 // projWrap[i].setAttribute('href', `projects.html?${data[i].id}`);
 // let projNum = window.location.search.split('?')[1];
-
-// src = ./project.html ${id}
 
 //Mapping all category elements from array to change parameters in DOM HTML.
 function getAllNames(namesArray) {
@@ -652,7 +701,7 @@ function getAllNames(namesArray) {
 
   for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
-    li.textContent += namesList[i];
+    li.innerHTML += `<a class = "hover" href="./alumn.html">${namesList[i]}</a>`;
     alumnsList.appendChild(li);
   }
 
@@ -670,6 +719,32 @@ function getAllNames(namesArray) {
 }
 
 getAllNames(data);
+
+//Function to fill videos and get #id for href alumn.html
+function fillVideos(videosArray) {
+  const srcList = videosArray.map((data) => data.SRCVideo);
+  let fillVideo = document.querySelector(".alumns-container").innerHTML;
+
+  for (let i = 0; i < srcList.length; i++) {
+    if (!srcList[i] == "") {
+      let div = document.createElement("div");
+      div.className = "alumn";
+      div.innerHTML += `
+    <a href="./alumn.html"><video 
+      id="lozad"
+      src="./assets/3dvids/${srcList[i]}.mp4"
+      autoplay
+      loop
+      muted
+      playsinline
+    ></video></a>
+  `;
+      alumnsContainer.appendChild(div);
+    }
+  }
+  return fillVideo;
+}
+fillVideos(data);
 
 // CREATE HTML NEW ELMEENT
 
