@@ -18,20 +18,20 @@ Name all materials “img1_studentX.png”
 
 # CSS
 
-- [ ]  Create `nav li` with `href` links for each student string text
+- [X]  Create `nav li` with `href` links for each student string text
 
 Div flex container with alumnes (mediaqueries maybe to change flex distribution depending screen size from 6 alumnes to 2 in phone
 
 - [x]  play /pause video 3d when hover
 - [x]  mix-blend typography not working
-- [?]  align nav menu center item ⇒ center
+- [?]  align nav menu center item ⇒ center, problem padding?
 - [x]  Imitate burger menu type with footer alumn list
 
 # Javascript
 
 - [x]  Import from excel data to array object
     - [x]  function to names
-    - [ ]  function to link (src)
+    - [x]  function to link (src)
     - [ ]  function to title /abstract for each page
     - [ ]  link function (src) with page elements
 
@@ -85,3 +85,15 @@ To-Do:
 - Create routing system between index and alumn template html
 - Functions for each document query
 - Add tablet media queries responsive && check mobile
+
+# 21/09/2022
+
+To-Fix:
+- Fix CSS padding issue
+- Nav li style does not visualize properly Mac
+
+To-Do:
+- Finish visualization details template.html (alumn)
+- Ask pictures and email correct sentence alumne-cognom-img1.png (3 imgs each)
+- Compress images
+- Routing 1/2 created, get #info in alumn.html to point javascript values
