@@ -36,18 +36,17 @@
 * {
   /* box-sizing: border-box; */
   font-family: "Eina 04 Light";
-  /* delete down if tipography fails */
+  /* delete down if typography fails */
   font-display: none;
   color: white;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  font-feature-settings: "zero";
-  font-feature-settings: "smcp" on;
-  font-feature-settings: "smcp", "0";
   font-variant: slashed-zero;
   scroll-behavior: smooth;
 }
+
+/* index page */
 
 body {
   background-color: black;
@@ -97,7 +96,6 @@ h1 a {
   flex-direction: row;
   justify-items: center;
   position: fixed;
-  z-index: 1;
   width: 98vw;
   align-items: flex-start;
   mix-blend-mode: difference;
@@ -120,13 +118,6 @@ h1 a {
   justify-content: center;
   text-align: center;
 }
-
-/* .title h1 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 2.5em;
-} */
 
 .logo {
   display: flex;
@@ -345,4 +336,69 @@ footer {
   .footer-link p {
     font-size: 13px;
   }
+}
+
+/* alumns page */
+
+.images {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-top: 100px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.img1-div {
+  display: flex;
+  width: 90vw;
+  background-position: center;
+}
+#img1 {
+  width: 98vw;
+}
+
+.img2-div {
+  width: 49vw;
+}
+
+#img2 {
+  width: 49vw;
+}
+
+.img3-div {
+  width: 49vw;
+}
+
+#img3 {
+  width: 49vw;
+}
+
+.images-2-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.alumn-txt p {
+  font-size: 26px;
+  padding: 20px;
+}
+
+.memory-div {
+  display: flex;
+  width: 100vw;
+  justify-content: end;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+.threedmodel {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 100px;
+}
+model-viewer {
+  width: 400px;
+  height: 400px;
 }

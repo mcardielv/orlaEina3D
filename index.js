@@ -623,28 +623,18 @@ const data = [
   },
 ];
 
-const observer = lozad();
+// const el = document.querySelector('img');
+// const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+// observer.observe();
+
+const el = document.querySelector("lozad");
+const observer = lozad(el);
 observer.observe();
 
 // projWrap[i].setAttribute('href', `projects.html?${data[i].id}`);
 // let projNum = window.location.search.split('?')[1];
 
-// video play/pause on hover
-// function video() {
-//   let alumnVideo = document.querySelector(".lozad");
-//   console.log(alumnVideo);
-//   allProducts.forEach((vid) => {
-//     // Adding play/pause the video
-//     alumnVideo.addEventListener("mouseover", function (e) {
-//       alumnVideo.pause();
-//     });
-
-//     /* Applying the mouse out event to pause the video */
-//     alumnVideo.addEventListener("mouseout", function (e) {
-//       alumnVideo.play();
-//     });
-//   });
-// }
+// src = ./project.html ${id}
 
 //Mapping all category elements from array to change parameters in DOM HTML.
 function getAllNames(namesArray) {
@@ -666,13 +656,14 @@ function getAllNames(namesArray) {
     alumnsList.appendChild(li);
   }
 
-  for (let i = 0; i < typesList.length; i++) {
+  for (let i = 0; i < typeList.length; i++) {
     let li = document.createElement("li");
     li.textContent += typeList[i];
     alumnsSpecialities.appendChild(li);
   }
 
-  for (let i = 0; i < srcList; i++) {}
+  // for (let i = 0; i < srcList; i++) {}
+
   //fillTxt = `<p><h2>${filledTxt}</h2></p>`;
   console.log(fillTxt, fillTxt2);
   return fillTxt, fillTxt2;
