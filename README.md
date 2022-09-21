@@ -10,8 +10,8 @@ Ask domain name
 
 Name all materials “img1_studentX.png”
 
-- [ ]  Divide folders “alumneX”
-- [ ]  import `nav li` from database or write array
+- [x]  Divide folders “alumneX”
+- [x]  import `nav li` from database or write array
 - [ ]  split array and generate for each one href to his /alumneXX.html (Routing)
     - [ ]  Find info abut routing
 - [x]  Render frames gif student 3D round
@@ -22,10 +22,10 @@ Name all materials “img1_studentX.png”
 
 Div flex container with alumnes (mediaqueries maybe to change flex distribution depending screen size from 6 alumnes to 2 in phone
 
-- [ ]  play /pause video 3d when hover
-- [ ]  mix-blend typography not working
-- [ ]  align nav menu center item ⇒ center
-- [ ]  Imitate burger menu type with footer alumn list
+- [x]  play /pause video 3d when hover
+- [x]  mix-blend typography not working
+- [?]  align nav menu center item ⇒ center
+- [x]  Imitate burger menu type with footer alumn list
 
 # Javascript
 
@@ -44,6 +44,7 @@ How to interact with DOM elements and create divs from 0 or div’s already crea
 
 # Publish
 
+- [ ]  Ask for uploading html files directly at his server
 - [ ]  Create Amazon S3 bucket (free one year)
 - [ ]  Buy and mount domain “einaorla3d.xyz”
 - [ ]  Point DNS Eina.cat
@@ -60,7 +61,7 @@ How to interact with DOM elements and create divs from 0 or div’s already crea
 
 
 To-Fix:
-- Video play/stop working (only one), I need to change querySelector for all of them. 
+X Video play/stop working (only one), I need to change querySelector for all of them. 
 - Alumns-list is filled with info from array document, right now is at the same index.js; for better understanding move to data.js
 
 
@@ -72,3 +73,15 @@ To-Do:
     1. videos
     2. alumns list
 
+# 20/09/2022
+
+
+To-Fix:
+- Fix CSS minimal issues
+
+To-Do:
+
+- Still missing assets, ask again
+- Create routing system between index and alumn template html
+- Functions for each document query
+- Add tablet media queries responsive && check mobile
