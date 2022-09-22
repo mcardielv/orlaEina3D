@@ -12,8 +12,8 @@ Name all materials “img1_studentX.png”
 
 - [x]  Divide folders “alumneX”
 - [x]  import `nav li` from database or write array
-- [ ]  split array and generate for each one href to his /alumneXX.html (Routing)
-    - [ ]  Find info abut routing
+- [x]  split array and generate for each one href to his /alumneXX.html (Routing)
+    - [x]  Find info abut routing
 - [x]  Render frames gif student 3D round
 
 # CSS
@@ -24,7 +24,7 @@ Div flex container with alumnes (mediaqueries maybe to change flex distribution 
 
 - [x]  play /pause video 3d when hover
 - [x]  mix-blend typography not working
-- [?]  align nav menu center item ⇒ center, problem padding?
+- [x]  align nav menu center item ⇒ center, problem padding?
 - [x]  Imitate burger menu type with footer alumn list
 
 # Javascript
@@ -32,23 +32,24 @@ Div flex container with alumnes (mediaqueries maybe to change flex distribution 
 - [x]  Import from excel data to array object
     - [x]  function to names
     - [x]  function to link (src)
-    - [ ]  function to title /abstract for each page
-    - [ ]  link function (src) with page elements
+    - [x]  function to title /abstract for each page
+    - [x]  link function (src) with page elements
 
 How can we fill pages such as /alumneX-projecteX.html and save it and link it with href in index.html (routing)
 
 How to interact with DOM elements and create divs from 0 or div’s already created and fill with object array info javacript
 
-- [ ]  Fix div text, add links
-- [ ]  
+- [x]  Fix div text, add links
+
 
 # Publish
 
-- [ ]  Ask for uploading html files directly at his server
-- [ ]  Create Amazon S3 bucket (free one year)
-- [ ]  Buy and mount domain “einaorla3d.xyz”
-- [ ]  Point DNS Eina.cat
-- [ ]  EXTRA: Check optimization img, compress data if needed
+- [x]  Ask for uploading html files directly at his server
+- [?]  Create Amazon S3 bucket (free one year)
+- [?]  Buy and mount domain “einaorla3d.xyz”
+- [?]  Point DNS Eina.cat
+- [x]  EXTRA: Check optimization img, compress data if needed
+- [ ]  Send project files instead of server
 
 
 
@@ -97,3 +98,21 @@ To-Do:
 - Ask pictures and email correct sentence alumne-cognom-img1.png (3 imgs each)
 - Compress images
 - Routing 1/2 created, get #info in alumn.html to point javascript values
+
+# 22/09/2022
+
+To-Fix:
+- Mobile: Lazy loading videos or optimize function, async ? tried to resize videos not working. Safari still show only 32 of 51 videos
+
+To-Do:
+- Finish routing system, page points correctly and split ? alumne info and fill arrays that fill template.html as well
+
+# 23/09/2022
+
+To-Fix:
+- Amazon S3 understand GET method and how to reduce usage
+
+To-Do:
+Ask missing images and TFG's documents to link downloadable data.zip
+Check responsive media queries, polish code, optimize images
+
