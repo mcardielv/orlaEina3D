@@ -12,8 +12,8 @@ Name all materials “img1_studentX.png”
 
 - [x]  Divide folders “alumneX”
 - [x]  import `nav li` from database or write array
-- [ ]  split array and generate for each one href to his /alumneXX.html (Routing)
-    - [ ]  Find info abut routing
+- [x]  split array and generate for each one href to his /alumneXX.html (Routing)
+    - [x]  Find info abut routing
 - [x]  Render frames gif student 3D round
 
 # CSS
