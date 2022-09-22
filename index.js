@@ -678,10 +678,6 @@ const data = [
 // const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
 // observer.observe();
 
-const el = document.querySelector("#lozad");
-const observer = lozad(el);
-observer.observe();
-
 // projWrap[i].setAttribute('href', `projects.html?${data[i].id}`);
 // let projNum = window.location.search.split('?')[1];
 
@@ -695,26 +691,27 @@ function getAllNames(namesArray) {
 
   // get from html alumns text list ul
   let fillTxt = document.querySelector(".alumns-list").innerHTML;
-  console.log(fillTxt);
+  // console.log(fillTxt);
   // get from html alumns tipologia list ul
   let fillTxt2 = document.querySelector(".alumns-list-specialities").innerHTML;
 
   for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
-    li.innerHTML += `<a class = "hover" href="./alumn.html">${namesList[i]}</a>`;
+    li.innerHTML += `<a class = "alumn-txt hover" href="./alumn.html">${namesList[i]}</a>`;
     alumnsList.appendChild(li);
+    let li2 = document.createElement("li");
+    li2.textContent += typeList[i];
+    alumnsSpecialities.appendChild(li2);
   }
 
-  for (let i = 0; i < typeList.length; i++) {
-    let li = document.createElement("li");
-    li.textContent += typeList[i];
-    alumnsSpecialities.appendChild(li);
-  }
+  // for (let i = 0; i < typeList.length; i++) {
+
+  // }
 
   // for (let i = 0; i < srcList; i++) {}
 
   //fillTxt = `<p><h2>${filledTxt}</h2></p>`;
-  console.log(fillTxt, fillTxt2);
+  // console.log(fillTxt, fillTxt2);
   return fillTxt, fillTxt2;
 }
 
@@ -730,9 +727,9 @@ function fillVideos(videosArray) {
       let div = document.createElement("div");
       div.className = "alumn";
       div.innerHTML += `
-    <a href="./alumn.html"><video 
+    <a href="./alumn.html?${srcList[i]}"><video 
       id="lozad"
-      src="./assets/3dvids/${srcList[i]}.mp4"
+      src="./assets/3dvidsreduce/${srcList[i]}.mp4"
       autoplay
       loop
       muted
@@ -746,9 +743,6 @@ function fillVideos(videosArray) {
 }
 fillVideos(data);
 
-// CREATE HTML NEW ELMEENT
-
-// let div = document.createElement('div');
-// div.id = 'content';
-// div.innerHTML = '<p>CreateElement example</p>';
-// document.body.appendChild(div);
+// const el = document.querySelector("#lozad");
+// const observer = lozad(el);
+// observer.observe();
