@@ -760,29 +760,20 @@ function fillVideos(videosArray) {
       let div = document.createElement("div");
       div.className = "alumn";
       div.innerHTML += `
-    <a href="./alumn.html?${srcList[i]}"><video 
-      id="lozad"
-      class="lazy"
-      data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
-      autoplay
-      loop
-      muted
-      playsinline
-    ></video></a>
+    <a href="./alumn.html?${srcList[i]}">
     <video
+    id="lozad"
       class="lazy"
       autoplay
       muted
       loop
       playsinline
-      width="600"
-      height="300"
       >
       <source
-        data-src="./assets/3dvidsreduce/adria-tejedor.mp4"
+        data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
         type="video/mp4"
       />
-    </video>
+    </video></a>
   `;
       alumnsContainer.appendChild(div);
       console.log(srcList[i]);
