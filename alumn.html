@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <link
       rel="icon"
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="nav-bar">
+    <div class="menu">
       <ul class="main-bar">
         <li class="course">
           <h1><a href="./index.html" class="hover">Projectes</a></h1>
@@ -28,36 +28,29 @@
           >
         </li>
       </ul>
+
       <ul class="main-bar-2" id="alumnsListName">
-        <h1 class="course biggerText" id="nameAlumn">Anaïs Llop Nexon</h1>
-        <h1 class="title" >&nbsp</h1>
-        <h1 class="logo biggerText" id="titleAlumn">Resilience</h1>
+        <h1 class="course2 biggerText" id="nameAlumn">Anaïs Llop Nexon</h1>
+        <h1 class="logo2 biggerText" id="titleAlumn">Resilience</h1>
       </ul>
-      <div class="alumn-txt" id="abstractAlumn">
-        <p>
-          Resilience, una recerca i experimentació enfocada en l'aplicació del
-          vidre en el món de la joieria contemporània, mitjançant la creació d'una
-          col·lecció de peces de vidre realitzades des del viatge introspectiu que
-          vaig experimentar durant la pandèmia. A través del qual vaig efectuar
-          una anàlisi anímica i emocional, identificant dues etapes: el caos i la
-          resiliència, les quals transcendiran mitjançant dos conceptes:
-          unwearable i wearable en la meva joieria, generant una metafòrica
-          transformació de la pandèmia de manera poètica i curativa.
+
+      <div class="alumn-txt" >
+        <p id="abstractAlumn">
         </p>
       </div>
-    </nav>
+    </div>
     
-    <div class="images">
+    <div class="images" id="images">
       <div class="img1-div">
-        <img id="img1" src="./assets/alumns-img/anais-llop-img1.jpg" alt="" />
+        <img id="img1" src="./assets/alumns-img/.jpg" alt="" />
       </div>
 
       <div class="images-2-div">
         <div class="img2-div">
-          <img id="img2" src="./assets/alumns-img/anais-llop-img2.jpg" alt="" />
+          <img id="img2" src="./assets/alumns-img/.jpg" alt="" />
         </div>
         <div class="img3-div">
-          <img id="img3" src="./assets/alumns-img/anais-llop-img3.jpg" alt="" />
+          <img id="img3" src="./assets/alumns-img/.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -68,7 +61,7 @@
       >
     </div>
     <div >
-            <model-viewer class="threedmodel" bounds="tight" ar-placement="wall" disable-zoom disable-pan="" src="./assets/alumns-3d/anais-llop.glb" camera-controls="" auto-rotate="" min-camera-orbit="auto 75deg " max-camera-orbit="auto 93deg auto" min-field-of-view="10deg">
+            <model-viewer class="threedmodel" bounds="tight" ar-placement="wall" disable-zoom disable-pan="" src="./assets/alumns-3d/anais-llop.glb" camera-controls="" auto-rotate="" min-camera-orbit="auto 75deg " max-camera-orbit="auto 93deg auto" camera-orbit="240deg 0deg" min-field-of-view="10deg">
             </model-viewer>
           </div>
     </div>

@@ -424,7 +424,7 @@ const data = [
     ALUMNE: "Sònia Bragulat Casadejust",
     TITOL: "La solitud com a model d'habitatge",
     ABSTRACTS:
-      "La inclusió social i la qualitat de vida de les persones està directament relacionada amb el suport i els vincles socials que desenvolupen al llarg de la seva vida.Tenim la necessitat d'establir relacions amb altres persones i de pertànyer a una xarxa relacional,  de qualsevol tipus, per establir certs nivells de benestar personal i social. “Soledat” i “solitud” s'utilitzen sovint com a sinònims, però la soledat és el sentiment subjectiu de sentir-se sol tot i no estar-ho, la solitud, en canvi, es relaciona amb el fet objectiu d'estar o de viure sol/a. La solitud pot implicar soledat, però no necessàriament. Tot i així hi ha un risc de que aquesta solitud objectiva acabi portant a un aïllament involuntari i acabi perjudicant a la salud mental de les persones. És a partir d'aquest concepte que s'inicia la idea d'aquest  TFG, amb la  finalitat de transformar una de les galeries de la Presó Model de Barcelona en habitatges socials unipersonals, buscant la conexió entre zones privades i zones comunes, sempre respectant i desmentint el tabú que suposa la soledat, amb la necessitat de vinculació voluntària o involuntaria que ens fa tenir una qualitat de vida millor.",
+      "La inclusió social i la qualitat de vida de les persones està directament relacionada amb el suport i els vincles socials que desenvolupen al llarg de la seva vida. Tenim la necessitat d'establir relacions amb altres persones i de pertànyer a una xarxa relacional,  de qualsevol tipus, per establir certs nivells de benestar personal i social. “Soledat” i “solitud” s'utilitzen sovint com a sinònims, però la soledat és el sentiment subjectiu de sentir-se sol tot i no estar-ho, la solitud, en canvi, es relaciona amb el fet objectiu d'estar o de viure sol/a. La solitud pot implicar soledat, però no necessàriament. Tot i així hi ha un risc de que aquesta solitud objectiva acabi portant a un aïllament involuntari i acabi perjudicant a la salud mental de les persones. És a partir d'aquest concepte que s'inicia la idea d'aquest  TFG, amb la  finalitat de transformar una de les galeries de la Presó Model de Barcelona en habitatges socials unipersonals, buscant la conexió entre zones privades i zones comunes, sempre respectant i desmentint el tabú que suposa la soledat, amb la necessitat de vinculació voluntària o involuntaria que ens fa tenir una qualitat de vida millor.",
     TIPOLOGIA: "Espais",
     SRC: "sonia-bragulat",
     SRCVideo: "sonia-bragulat",
@@ -697,7 +697,7 @@ function getAllNames(namesArray) {
 
   for (let i = 0; i < namesList.length; i++) {
     let li = document.createElement("li");
-    li.innerHTML += `<a class = "alumn-txt hover" href="./alumn.html">${namesList[i]}</a>`;
+    li.innerHTML += `<a class = "alumn-txt hover" href="./alumn.html?${srcList[i]}">${namesList[i]}</a>`;
     alumnsList.appendChild(li);
     let li2 = document.createElement("li");
     li2.textContent += typeList[i];
