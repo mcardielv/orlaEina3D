@@ -319,6 +319,7 @@ footer {
     width: fit-content;
     align-items: baseline;
     list-style-type: none;
+    margin: 0px;
   }
 
   .alumns-list-specialities {
