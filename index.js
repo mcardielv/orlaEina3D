@@ -674,6 +674,39 @@ const data = [
   },
 ];
 
+document.addEventListener("DOMContentLoaded", function () {
+  var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    var lazyVideoObserver = new IntersectionObserver(function (
+      entries,
+      observer
+    ) {
+      entries.forEach(function (video) {
+        if (video.isIntersecting) {
+          for (var source in video.target.children) {
+            var videoSource = video.target.children[source];
+            if (
+              typeof videoSource.tagName === "string" &&
+              videoSource.tagName === "SOURCE"
+            ) {
+              videoSource.src = videoSource.dataset.src;
+            }
+          }
+
+          video.target.load();
+          video.target.classList.remove("lazy");
+          lazyVideoObserver.unobserve(video.target);
+        }
+      });
+    });
+
+    lazyVideos.forEach(function (lazyVideo) {
+      lazyVideoObserver.observe(lazyVideo);
+    });
+  }
+});
+
 // const el = document.querySelector('img');
 // const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
 // observer.observe();
@@ -729,19 +762,63 @@ function fillVideos(videosArray) {
       div.innerHTML += `
     <a href="./alumn.html?${srcList[i]}"><video 
       id="lozad"
-      src="./assets/3dvidsreduce/${srcList[i]}.mp4"
+      class="lazy"
+      data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
       autoplay
       loop
       muted
       playsinline
     ></video></a>
+    <video
+      class="lazy"
+      autoplay
+      muted
+      loop
+      playsinline
+      width="600"
+      height="300"
+      >
+      <source
+        data-src="./assets/3dvidsreduce/adria-tejedor.mp4"
+        type="video/mp4"
+      />
+    </video>
   `;
       alumnsContainer.appendChild(div);
+      console.log(srcList[i]);
     }
   }
   return fillVideo;
 }
 fillVideos(data);
+
+//BACKUP Function to fill videos and get #id for href alumn.html
+// function fillVideos(videosArray) {
+//   const srcList = videosArray.map((data) => data.SRCVideo);
+//   let fillVideo = document.querySelector(".alumns-container").innerHTML;
+
+//   for (let i = 0; i < srcList.length; i++) {
+//     if (!srcList[i] == "") {
+//       let div = document.createElement("div");
+//       div.className = "alumn";
+//       div.innerHTML += `
+//     <a href="./alumn.html?${srcList[i]}"><video
+//       id="lozad"
+//       class="lazy"
+//       data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
+//       autoplay
+//       loop
+//       muted
+//       playsinline
+//     ></video></a>
+//   `;
+//       alumnsContainer.appendChild(div);
+//       console.log(srcList[i]);
+//     }
+//   }
+//   return fillVideo;
+// }
+// fillVideos(data);
 
 // const el = document.querySelector("#lozad");
 // const observer = lozad(el);
