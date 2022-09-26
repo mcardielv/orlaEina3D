@@ -707,13 +707,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// const el = document.querySelector('img');
-// const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
-// observer.observe();
-
-// projWrap[i].setAttribute('href', `projects.html?${data[i].id}`);
-// let projNum = window.location.search.split('?')[1];
-
 //Mapping all category elements from array to change parameters in DOM HTML.
 function getAllNames(namesArray) {
   const namesList = namesArray.map((data) => data.ALUMNE);
@@ -736,15 +729,6 @@ function getAllNames(namesArray) {
     li2.textContent += typeList[i];
     alumnsSpecialities.appendChild(li2);
   }
-
-  // for (let i = 0; i < typeList.length; i++) {
-
-  // }
-
-  // for (let i = 0; i < srcList; i++) {}
-
-  //fillTxt = `<p><h2>${filledTxt}</h2></p>`;
-  // console.log(fillTxt, fillTxt2);
   return fillTxt, fillTxt2;
 }
 
@@ -770,47 +754,20 @@ function fillVideos(videosArray) {
       playsinline
       >
       <source
-        data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
-        type="video/mp4"
+        data-src="./assets/3dvidswebm/${srcList[i]}.webm"
+        type="video/webm"
       />
+      <source
+      data-src="./assets/3dvidsh265/${srcList[i]}.mp4"
+      type="video/mp4"
+  />
+
     </video></a>
   `;
       alumnsContainer.appendChild(div);
       console.log(srcList[i]);
-    }
+    } else null;
   }
   return fillVideo;
 }
 fillVideos(data);
-
-//BACKUP Function to fill videos and get #id for href alumn.html
-// function fillVideos(videosArray) {
-//   const srcList = videosArray.map((data) => data.SRCVideo);
-//   let fillVideo = document.querySelector(".alumns-container").innerHTML;
-
-//   for (let i = 0; i < srcList.length; i++) {
-//     if (!srcList[i] == "") {
-//       let div = document.createElement("div");
-//       div.className = "alumn";
-//       div.innerHTML += `
-//     <a href="./alumn.html?${srcList[i]}"><video
-//       id="lozad"
-//       class="lazy"
-//       data-src="./assets/3dvidsreduce/${srcList[i]}.mp4"
-//       autoplay
-//       loop
-//       muted
-//       playsinline
-//     ></video></a>
-//   `;
-//       alumnsContainer.appendChild(div);
-//       console.log(srcList[i]);
-//     }
-//   }
-//   return fillVideo;
-// }
-// fillVideos(data);
-
-// const el = document.querySelector("#lozad");
-// const observer = lozad(el);
-// observer.observe();

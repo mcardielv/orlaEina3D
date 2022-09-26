@@ -672,14 +672,6 @@ const data = [
   },
 ];
 
-// rebre tot lo que hi ha despres ?
-
-// importar data Array
-// anais-llop
-
-// filtrar array objecte que coincideixi amb scr
-// function
-
 let projectName = window.location.search.split("?")[1];
 console.log(projectName);
 
