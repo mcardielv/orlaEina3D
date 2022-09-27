@@ -359,7 +359,7 @@ footer {
   display: flex;
   margin-left: 15px;
   margin-right: 15px;
-  align-content: center;
+  align-self: center;
 }
 
 #img1 {
