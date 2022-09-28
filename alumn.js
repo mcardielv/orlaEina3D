@@ -166,7 +166,7 @@ const data = [
   },
   {
     ALUMNE: "Soren-Andrés Pérez Bosch",
-    TITOL: "Passing: relatos LGTB: Ser queer e invisible, una novela gráfica",
+    TITOL: "Passing: relatos LGTB",
     ABSTRACTS:
       "Aquesta novel·la gràfica pretén il·lustrar totes aquelles situacions que les persones LGBT han de fer front quan parlem de passing, haventde coexistir amb una normativitat que rebutja i nega les seves identitats individuals i la seva expressió personal de gènere. A través d'una sèrie d'entrevistes, s'han desenvolupat una sèrie de personatges que serveixen per poder mostrar aquests esdeveniments en primera persona i generar una reacció al lector, pretenent que prengui consciència i vegi l'existència d'identitats diverses que es troben més enllà d'allò establert i que no tenen visibilitat, aquesta és doncs, la intenció directa d'aquest projecte, dotar de visibilitat aquelles històries que el món pretén passar desapercebudes.",
     TIPOLOGIA: "Visual",
@@ -208,7 +208,7 @@ const data = [
   },
   {
     ALUMNE: "Josep Rojas Capell",
-    TITOL: "Trànsit-Transport-Trauma: una acció sonoro-literària",
+    TITOL: "Trànsit-Transport-Trauma",
     ABSTRACTS:
       "Trànsit, Transport, Trauma és un projecte que neix de l'experiència agònica del transport públic, viscuda durant set anys. En aquest projecte es planteja una nova forma de desplaçar-se la qual a través d'una acció literària metàfora i una acció sonora metonímica, estableix un nou vincle entre paisatge i passatger, permetent així a aquest últim habitar el trajecte i guarir el trauma generat pel transport públic a la persona i l'entorn. A través d'aquesta pràctica també es busca obrir la disciplina del disseny cap a àmbits com la literatura o l'art sonor, amb la finalitat de crear noves formes de creació en l'àmbit d'aquesta disciplina.",
     TIPOLOGIA: "Cultura",
@@ -244,7 +244,7 @@ const data = [
   },
   {
     ALUMNE: "Pol Vilalta Lenz",
-    TITOL: "Stringer. Una proposta de viatge de surf\r\n",
+    TITOL: "Stringer",
     ABSTRACTS:
       "Stringer és una proposta de viatge de surf gestionada pels locals de cada zona. L'objectiu de l'encarti és regenerar els vincles perduts amb la zona terrenal durant aquest moviment. La manera de viatjar dels turistes, que ha estat influenciada per les millores de les infraestructures i mitjans de comunicació internacionals, s'ha traduït en una sèrie de conseqüències en les comunitat de cada localitat, incloent-hi les no-surfistes. En forma d'encarti, Stringer s'incorpora al mitjà de comunicació per excel·lència, dinamitzador d'aquestes noves facilitats de viatge: la revista.",
     TIPOLOGIA: "Cultura",
@@ -253,7 +253,7 @@ const data = [
   },
   {
     ALUMNE: "Adrià Tejedor Baltasar",
-    TITOL: "Re-Bosc. Culinary Arts Coworking",
+    TITOL: "Re-Bosc",
     ABSTRACTS:
       "Re-Bosc neix amb la voluntat de voler crear un espai per joves gastronòmics d'Arts Culinaries amb poca experiència laboral, on puguin experimentar amb productes propers i de la terra, de km zero. Un espai modern, tranquil, natural, confortable, on la seva imaginació pugui creixer i desenvolupar-se. Conceptualment el Re-Bosc és un centre amb vocació social, dedicat a la innovació en cuina, a la millora dels hàbits alimentaris i a la valoració del patrimoni agroalimentari. És per aquest motiu que el treball es planteja des d'una reflexió i comparació dels projectes existents, on s'intenta extreure els conceptes que es creuen necessaris per intentar dissenyar un espai que sigui viable econòmica, funcionalment i sense abandonar la linea de valors de la marca Re-Bosc. La visió d'enfocar aquest treball és força tècnica per aconseguir una resultat realista, i poder veure la viabilitat del treball.",
     TIPOLOGIA: "Espais",
@@ -262,7 +262,7 @@ const data = [
   },
   {
     ALUMNE: "Anna Marcó Vergés",
-    TITOL: "Centre de Benestar - Un oasi a la ciutat",
+    TITOL: "Centre de Benestar",
     ABSTRACTS:
       "El present treball és un lligam de la psique interior femenina amb el seu entorn exterior mediterrani. Respon a la necessitat que ha existit sempre i actualment més oblidada de trobar un recolliment diari com un oasi en el tren de vida diària, la intimitat de la dona troba un lloc on expresar-se i on deixar de respondre a convencions socials per a ser ella mateixa. Un centre on s'hi fan diferents activitats per el benestar físic i mental, com el Yoga, Piltes, meditació. L'interior s'organitza a través de l'entrada pels vestidors per enfatitzar el “despullar-se” de l'exterior , de sales recollides per activitats individuals, una gran sala d'activitats col·lectives i una zona d'estar on relaxar-se, evadir-se i relacionar-se, tot això encarat a un pati que connecta amb la natura.",
     TIPOLOGIA: "Espais",
@@ -322,8 +322,7 @@ const data = [
   },
   {
     ALUMNE: "Irene Terrón Pérez",
-    TITOL:
-      "Des·Edificar. Itinerarios y encuentros en un parque urbano vertical",
+    TITOL: "Des·Edificar",
     ABSTRACTS:
       "La vida urbana necessita retrobar-se amb la natura per poder-se desenvolupar plenament. Promoure un canvi deixa poc marge a una ciutat tan compacta com Barcelona. Construïm una massa forestal a partir d'un edifici buit. Un espai controlat que permeti estar en contacte amb la natura. Si a NYC el disseny de jardins va ser longitudinal, ja que reformula les antigues vies de tren, imaginem un recorregut que s'eleva vertical convertit en horts, senders, hivernacles i vistes emmarcades. Creiem en una ciutat on la vegetació guanyi la guerra al formigó. Una ciutat on el gust per allò urbà no sigui contrari a la qualitat de vida. Imaginem un redisseny urbà on la infraestructura ecològica sigui imperant. Estem convençuts que només el “desmanteniment” i la “descivilització” ens portarà a la veritable naturalització. Però la naturalesa es pot reconstruir en un terreny que no és seu? És el formigó conquerible? Aconseguirà la naturalesa civilitzar-nos?",
     TIPOLOGIA: "Espais",
@@ -365,8 +364,7 @@ const data = [
   },
   {
     ALUMNE: "Marc Donaire Bianes",
-    TITOL:
-      "APRENENTATGE AUTODIDACTA: Reforma d'un centre educatiu Kumon a l'Hospitalet",
+    TITOL: "APRENENTATGE AUTODIDACTA",
     ABSTRACTS:
       "Kumon promou una nova educació que valora l'autoritat de l'infant i potencia les seves capacitats. Aquest objectiu ha portat a detectar una manca de coherència entre aquest i l'espai on es desenvolupa. Aquest projecte pretén revalorar la importància dels espais educatius Kumon com espais d'aprenentatge i dissenyar un nou tipus de context acadèmic, on la premissa sigui el caràcter educatiu dels seus espais per sobre de l'economia o la funcionalitat d'aquests. Tracta de crear un diàleg coherent entre la pedagogia i el disseny. L'objectiu principal ha estat estudiar referents que ja funcionen en altres països i aplicar-los a un dels centres locals, el de L'Hospitalet Centre. Per tant, s'ha buscat un cas concret on realitzar una proposta de reforma per projectar un exemple d'aquest tipus d'espai educatiu com es Kumon. La metodologia que s'ha usat en el desenvolupament del projecte ha estat un enfocament més dinàmic en les activitats realitzades al centre tenint en compte els objectius de la metodologia i les necessitats que tant alumnat com treballadors presenten enfront l'espai on es troben, facilitan l'execució de les tasques a que cadascú se'ls hi correspón.",
     TIPOLOGIA: "Espais",
@@ -375,8 +373,7 @@ const data = [
   },
   {
     ALUMNE: "Mariona Genoveva Rius Maza",
-    TITOL:
-      "#REBROTEM. Proposta d'identitat per una xarxa de masos envers l'oleoturisme a la Ribera d'Ebre",
+    TITOL: "#REBROTEM",
     ABSTRACTS:
       "Rebrotem dóna nom a una nova xarxa de masos a la Ribera d'Ebre que ofereixen un programa d'activitats que giren entorn l'oleoturisme. A la Ribera competim amb unes comarques molt potents com el Priorat i la Terra Alta que ofereixen enoturisme amb denominació d'origen. Amb la creació d'aquesta xarxa busquem obrir-nos camí dins aquest turisme gràcies a donar una nova identitat al territori que crearem en aquest projecte.",
     TIPOLOGIA: "Espais",
@@ -384,7 +381,7 @@ const data = [
   },
   {
     ALUMNE: "Noelia Candon Carrasco",
-    TITOL: "Re.Obre. Reconversió d'indústria a habitatge",
+    TITOL: "Re.Obre",
     ABSTRACTS:
       "Reobre neix de la idea de crear un espai d'habitatges accessibles a aquella part més oblidada de la població a l'hora d'oferir un lloc on amarrar les arrels per créixer al món laboral. Reobre neix de la idea de crear un espai d'habitatges accessibles a aquella part més oblidada de la població a l'hora d'oferir un lloc on amarrar les arrels per créixer al món laboral, els joves. La intenció que proporciona aquest projecte és dur a terme un espai d'habitatges amb condicions òptimes, perquè l'habitant no deixi de tenir qualitat de vida, alhora que un espai on poder emancipar-se i créixer al món laboral. ",
     TIPOLOGIA: "Espais",
@@ -401,8 +398,7 @@ const data = [
   },
   {
     ALUMNE: "Raquel Calvo Jimenez",
-    TITOL:
-      "La Bòbila Carmen: Rehabilitació de la Bòbila de la Taxonera per a les entitats del barri",
+    TITOL: "La Bòbila Carmen",
     ABSTRACTS:
       "Aquest projecte proposa rehabilitar una construcció històrica del barri de la Taxonera per donar servei a les entitats. El barri de la Taxonera va créixer al voltant de la, ara abandonada, Bòbila de maons Carmen. El barri té una gran carència d'instal·lacions públiques per les entitats i associacions. Amb aquest projecte es pretén rehabilitar l'edifici per crear un espai autogestionat per les associacions del barri, conservant alhora la seva memòria històrica. La meva vinculació amb aquest projecte, a més de com a veïna de la Taxonera, és com a monitora de l'esplai del barri, una de les entitats que necessiten d'aquest espai per desenvolupar la seva activitat.",
     TIPOLOGIA: "Espais",
@@ -411,7 +407,7 @@ const data = [
   },
   {
     ALUMNE: "Sara Barrull i Berna",
-    TITOL: "AIRE. El molí de vent. Una nova vida per un espai oblidat",
+    TITOL: "AIRE. El molí de vent.",
     ABSTRACTS:
       "El projecte planteja la reforma d'un molí ubicat a les illes Canàries, concretament a l'illa de Fuerteventura. Aquests edificis, actualment en desús, han caigut en l'oblit de les generacions actuals i futures i s'exhibeixen com una mostra d'allò que va ser en un passat, però que ja no podrà tornar a ser. A través d'una intervenció en un dels molins, es provoca un canvi en el seu ús per transformar-lo en un habitatge dirigit a creatius, on podran viure durant un període de temps limitat, per tal de poder ubicar-se en un lloc aïllat que suposi un moment d'inspiració. Per tant, es genera refugi alhora que un habitatge domèstic i de treball. L'objectiu principal és generar una nova vida rememorant el passat, la seva història i la seva forta identitat. Respectar allò que van ser, l'espai físic que ocupen i el context social i geogràfic actual.",
     TIPOLOGIA: "Espais",
@@ -534,7 +530,7 @@ const data = [
   },
   {
     ALUMNE: "Pol Capdevila Mora",
-    TITOL: "Sempre a punt: Història del Cau de Bellpuig",
+    TITOL: "Sempre a punt",
     ABSTRACTS:
       "Sempre a punt: Història del Cau de Bellpuig vol recuperar la història i realçar la im- portància de l'Escoltisme i el Guiatge a la vil·la de Bellpuig, a la província de Lleida. Per això, la participació d'un gran nombre de gent és clau. Els valors i principis de la metodologia es- colta es materialitzen en una peça audiovisual amb un caràcter documentalista, aprofitant tots els recursos cinematogràfics que ens dona aquest tipus de produccions.",
     TIPOLOGIA: "Gràfic",
@@ -569,7 +565,7 @@ const data = [
   },
   {
     ALUMNE: "Anna Vilageliu Porlein",
-    TITOL: "Divís: una proposta senzilla per a realitats diverses",
+    TITOL: "Divís",
     ABSTRACTS:
       "Aquest projecte es desenvolupa creant un objecte per a la llar que sorgeix de la combinació de dos mobles que han quedat en desús i que han evolucionat fins a l'actualitat d'una manera reinventada. Aquests són el Tocador i el Galant de nit, dos objectes que representaven òptimament la separació binària de gènere i dictaven com ha d'actuar cadascú. L'objectiu és identificar, fer visible i representar tota classe de diversitat física i de pensament. A partir d'una estètica neutre, pura i funcional, conformada per mòduls, permet que cadascú es personalitzi l'objecte, mitjançant forma i volum, a partir dels seus gustos i l'expressió de gènere que desitgi. Intenta no limitar al públic en cap sentit i que la forma del producte es conformi a partir de la persona, no la persona a partir del producte.",
     TIPOLOGIA: "Producte",
