@@ -453,6 +453,7 @@ model-viewer {
   }
   #titleAlumn {
     margin-right: 0;
+    text-align: center;
   }
 }
 
