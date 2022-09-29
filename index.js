@@ -117,7 +117,7 @@ const data = [
   },
   {
     ALUMNE: "Meritxell Agulló Montells",
-    TITOL: "Mandarina, oda a la complicitat",
+    TITOL: "Mandarina",
     ABSTRACTS:
       "El meu projecte consisteix a filmar un curtmetratge que és una oda a la complicitat, Serà un curtmetratge on no hi ha una comunicació verbal literal entre els personatges, on la comunicació entre ells és visual, física i a través de sons. Faig aquesta peça com un homenatge als germans, la infància, el silenci i el joc. De nou, una oda a la complicitat. Així doncs, aquesta és la història de dues germanes que passaven temps juntes, jugant a la casa del seu jardí, i la importància que tenen les mandarines per a elles.",
     TIPOLOGIA: "Visual",
@@ -202,7 +202,7 @@ const data = [
   },
   {
     ALUMNE: "Eugenia Prenafeta Oriach",
-    TITOL: "Disseny de serveis en l'entorn educatiu",
+    TITOL: "Disseny de serveis educatius",
     ABSTRACTS:
       "Els reptes que presenten actualment les organitzacions educatives en relació al foment de les STEM (Science, Technology, Engineering, Maths) són cada cop més evidents. Actualment, els estudis demostren que no hi ha prou estudiants interessats a seguir estudis en l'àmbit de les STEM per satisfer la necessitat present de nous científics, enginyers i líders en resolució de problemes. Les progressives demandes del mercat laboral, que busca professionals formats en ciència, tecnología, enginyeria i matemàtiques, exigeixen un major esforç en el foment de les vocacions entre els més joves. Existeixen múltiples projectes adreçats a resoldre aquest buit professional però ens hem de preguntar si ho fan de forma permanent. Davant les debilitats dels sistemes actuals és necessari proposar nous projectes i reptes que s'adaptin a l'alumnat així com a l'organització, recursos i capacitats dels centres educatius.\r\nAquest treball final de grau busca desenvolupar i millorar un projecte real per al foment de les STEM amb l'objectiu de fer-lo més accessible per als centres educatius i alhora assolir un impacte a llarg plaç entre l'alumnat. Com a resultat, sorgeix una proposta de valor que ofereix un servei més eficient i de més qualitat, que impacta no només en l'alumnat, sinó també en el gruix de la comunitat educativa. Aquest nou servei està definit a partir de l'ús de la metodologia de disseny de serveis, des de diferents enfocs, implementant alternatives en les diferents parts del projecte. El resultat final esdevé un projecte on es millora l'estructura del projecte actual, reformulant els materials i recursos necessaris, així com la gestió operativa.",
     TIPOLOGIA: "Cultura",
@@ -281,7 +281,7 @@ const data = [
   },
   {
     ALUMNE: "Berta Casas Aisa",
-    TITOL: "Dignificació del vaixell d'Open Arms",
+    TITOL: "Dignificació del vaixell Open Arms",
     ABSTRACTS:
       "El projecte proposa la dignificació del vaixell d'Open Arms amb l'objectiu d'aconseguir un mínim confort emocional i funcional durant el procés de salvament i el temps que passi fins al retorn a terra ferma. A través de la creació d'un sistema de repòs mòbil i per mitjà de l'optimització de l'espai preexistent s'obté millorar les condicions d'habilitat dels seus usuaris. Generar intimitat mitjançant petits subespais, cadascun amb una funcionalitat diversa, i així obtenir la màxima adaptació per part de tots els perfils de rescatats.",
     TIPOLOGIA: "Espais",
@@ -306,7 +306,7 @@ const data = [
   },
   {
     ALUMNE: "Eva Ramón Martínez",
-    TITOL: "CLIMENT. Hub de treball flexible",
+    TITOL: "CLIMENT",
     ABSTRACTS:
       "Amb els espais laborals en transició a causa de la pandèmia provocada per la SARS-CoV2 i la falta d'espais per a joves estudiants arreu de la ciutat de Barcelona, neix la idea de crear un hub, un centre col·laboratiu enfocat al treball i a l'estudi com a funcions principals. Dins de Climent trobaríem espais de treball pels actuals tele-treballadors i espais per a estudiants majors d'edat que busquen llocs condicionats i favorables on poder concentrar-se. També se li sumarien espais de producció amb impressores i demès material físic, i espais de lectura, descans i de vending. Aquest hub seria, de forma conceptual, un espai híbrid amb funcions diverses i canviants idea- des per a col·lectivitats que busquen entorns de col·laboració.",
     TIPOLOGIA: "Espais",
@@ -358,7 +358,7 @@ const data = [
   },
   {
     ALUMNE: "Lia Mizrahi Lasry",
-    TITOL: "THE HOUSE OF BAMBOO",
+    TITOL: "The House of Bamboo",
     ABSTRACTS:
       "El disseny d'espai i la moda són dues disciplines afins. Per això, es planteja la hipòtesi que en intervenir, reinterpretar i modificar l'espai de la desfilada, es pugui arribar a entendre més profundament la col·lecció de moda. “THE HOUSE OF BAMBOO” és un fashion show que presenta la primera col·lecció de moda del dissenyador Jorge Oller. Inspirat en les desfilades de moda retratades a les pel·lícules dels anys 50 i les vacances tropicals, “THOB” ofereix al públic una experiència única per descobrir la nova col·lecció. El show està dissenyat perquè l'usuari senti que està de vacances per un dia. Gaudint d'un passeig amb vaixell, bona companyia, música, moda i més. Amb l'objectiu de crear un impacte a la indústria de la moda i el disseny, donant peu a un començament reeixit en el món laboral.",
     TIPOLOGIA: "Espais",
@@ -366,7 +366,7 @@ const data = [
   },
   {
     ALUMNE: "Marc Donaire Bianes",
-    TITOL: "APRENENTATGE AUTODIDACTA",
+    TITOL: "Aprenentatge Autodidacta",
     ABSTRACTS:
       "Kumon promou una nova educació que valora l'autoritat de l'infant i potencia les seves capacitats. Aquest objectiu ha portat a detectar una manca de coherència entre aquest i l'espai on es desenvolupa. Aquest projecte pretén revalorar la importància dels espais educatius Kumon com espais d'aprenentatge i dissenyar un nou tipus de context acadèmic, on la premissa sigui el caràcter educatiu dels seus espais per sobre de l'economia o la funcionalitat d'aquests. Tracta de crear un diàleg coherent entre la pedagogia i el disseny. L'objectiu principal ha estat estudiar referents que ja funcionen en altres països i aplicar-los a un dels centres locals, el de L'Hospitalet Centre. Per tant, s'ha buscat un cas concret on realitzar una proposta de reforma per projectar un exemple d'aquest tipus d'espai educatiu com es Kumon. La metodologia que s'ha usat en el desenvolupament del projecte ha estat un enfocament més dinàmic en les activitats realitzades al centre tenint en compte els objectius de la metodologia i les necessitats que tant alumnat com treballadors presenten enfront l'espai on es troben, facilitan l'execució de les tasques a que cadascú se'ls hi correspón.",
     TIPOLOGIA: "Espais",
@@ -556,15 +556,15 @@ const data = [
     SRC: "violeta-cirici",
     SRCVideo: "violeta-cirici",
   },
-  {
-    ALUMNE: "Ángela Maria Baeza Álvarez",
-    TITOL: "Cunnus",
-    ABSTRACTS:
-      "A  partir d'una malaltia crònica pròpia he vist l'oportunitat per a anar més enllà dels productes sobre salut femenina disponibles en el mercat. Conec l'entorn mèdic com a pacient molt de prop i em resultaria amb facilitat recollir dades i detalls. Moltes pacients pateixen molt dolor en la zona vulvar i vaginal, i excepte medicació i tractaments elevats no és molt accessible pal·liar el dolor i el malestar. Pel que vaig decidir dissenyar uns objectes que millorin la salut de la zona intima com a tractament i prevenció, i no amb visió merament sexual. Cunnus és una proposta per a millorar la salut i la qualitat de vida de moltes dones, a través del disseny de dos objectes de silicona per a ús íntim.",
-    TIPOLOGIA: "Producte",
-    SRC: "angela-maria-baeza",
-    SRCVideo: "angela-maria-baeza",
-  },
+  // {
+  //   ALUMNE: "Ángela Maria Baeza Álvarez",
+  //   TITOL: "Cunnus",
+  //   ABSTRACTS:
+  //     "A  partir d'una malaltia crònica pròpia he vist l'oportunitat per a anar més enllà dels productes sobre salut femenina disponibles en el mercat. Conec l'entorn mèdic com a pacient molt de prop i em resultaria amb facilitat recollir dades i detalls. Moltes pacients pateixen molt dolor en la zona vulvar i vaginal, i excepte medicació i tractaments elevats no és molt accessible pal·liar el dolor i el malestar. Pel que vaig decidir dissenyar uns objectes que millorin la salut de la zona intima com a tractament i prevenció, i no amb visió merament sexual. Cunnus és una proposta per a millorar la salut i la qualitat de vida de moltes dones, a través del disseny de dos objectes de silicona per a ús íntim.",
+  //   TIPOLOGIA: "Producte",
+  //   SRC: "angela-maria-baeza",
+  //   SRCVideo: "angela-maria-baeza",
+  // },
   {
     ALUMNE: "Anna Vilageliu Porlein",
     TITOL: "Divís",

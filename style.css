@@ -163,7 +163,11 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   bottom: 20px;
-  margin: 50px;
+  /* margin: 50px; */
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 10px;
+  margin-bottom: 50px;
 }
 
 .alumns-list li a {
@@ -261,16 +265,35 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-  /* Header nav section */
+  /* Header nav section ⎯⎯*/
+  .main-bar2 {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .main-bar {
+    padding-top: 10px;
+  }
+
+  .logo2,
+  .course2 {
+    margin-top: 0px;
+  }
+  #nameAlumn {
+    margin-top: 20px;
+  }
+
   h1,
   h1 a {
     font-size: 15px;
   }
+
   .course:before {
-    content: "2021⎯⎯2022";
+    content: "2021—2022";
   }
 
   .course {
+    align-self: flex-start;
     margin-left: 15px;
   }
 
@@ -278,11 +301,16 @@ footer {
     font-size: 17px;
   }
 
+  .title {
+    line-height: 22px;
+  }
+
   .biggerText {
     font-size: 1.5em;
   }
 
   .logo {
+    align-self: flex-start;
     margin-right: 15px;
   }
 
@@ -443,6 +471,7 @@ model-viewer {
     flex-direction: column;
     align-items: center;
   }
+
   .memory-div {
     padding-top: 15px;
     justify-content: center;
