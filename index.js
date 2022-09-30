@@ -417,7 +417,7 @@ const data = [
   },
   {
     ALUMNE: "Sara Barrull i Berna",
-    TITOL: "AIRE. El molí de vent.",
+    TITOL: "AIRE. El molí de vent",
     ABSTRACTS:
       "El projecte planteja la reforma d'un molí ubicat a les illes Canàries, concretament a l'illa de Fuerteventura. Aquests edificis, actualment en desús, han caigut en l'oblit de les generacions actuals i futures i s'exhibeixen com una mostra d'allò que va ser en un passat, però que ja no podrà tornar a ser. A través d'una intervenció en un dels molins, es provoca un canvi en el seu ús per transformar-lo en un habitatge dirigit a creatius, on podran viure durant un període de temps limitat, per tal de poder ubicar-se en un lloc aïllat que suposi un moment d'inspiració. Per tant, es genera refugi alhora que un habitatge domèstic i de treball. L'objectiu principal és generar una nova vida rememorant el passat, la seva història i la seva forta identitat. Respectar allò que van ser, l'espai físic que ocupen i el context social i geogràfic actual.",
     TIPOLOGIA: "Espais",

@@ -472,6 +472,11 @@ model-viewer {
   height: 400px;
 }
 
+/* creditspage */
+#abstractAlumn a {
+  font-size: 26px;
+}
+
 /* extra queries details alumns */
 
 @media screen and (max-width: 640px) {
