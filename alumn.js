@@ -372,6 +372,14 @@ const data = [
     SRCVideo: "marc-donaire",
   },
   {
+    ALUMNE: "Marc Rovira",
+    TITOL: "RUSC",
+    ABSTRACTS:
+      "Rusc és un centre autònom que proporciona allotjament i promou la formació dels estudiants universitaris així com la cultura estrangera, catalana i espanyola. La idea neix després de produir-se una escassetat d'habitatges amb lloguers justos i un augment de pobresa salarial dels joves, com també per a afavorir l'aprenentatge d'aquelles persones amb pocs recursos però amb capacitat i ganes d'aprendre. Pretén connectar els estudiants estrangers, tant de fora i dins de Catalunya, amb els habitants d'Esplugues, promovent activitats culturals realitzades pels propis estudiants i veïns, d'aquesta manera es crea un ambient adequat que afavoreix l'estudi, estimula i fomenta la participació i la corresponsabilitat dels estudiants en el seu funcionament.",
+    TIPOLOGIA: "Espais",
+    SRC: "marc-rovira",
+  },
+  {
     ALUMNE: "Mariona Genoveva Rius Maza",
     TITOL: "#REBROTEM",
     ABSTRACTS:
