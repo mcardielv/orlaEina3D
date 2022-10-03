@@ -387,6 +387,7 @@ footer {
 .images {
   display: flex;
   flex-direction: column;
+  animation: fadeIn 1.2s;
   /* max-width: calc(100vw-15px-15px); */
 }
 
