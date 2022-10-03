@@ -712,15 +712,15 @@ abstractAlumne.innerHTML = func().ABSTRACTS;
 
 const imagesAlumnes = document.querySelector("#images");
 imagesAlumnes.innerHTML = `<div class="img1-div">
-<img id="img1" src="./assets/alumns-img/${projectName}-img1.jpg" alt="" />
+<img id="img1" src="./assets/alumns-img/${projectName}-img1.jpg" alt="" onerror="this.onerror=null; this.remove();"/>
 </div>
 
 <div class="images-2-div">
 <div class="img2-div">
-  <img id="img2" src="./assets/alumns-img/${projectName}-img2.jpg" alt="" />
+  <img id="img2" src="./assets/alumns-img/${projectName}-img2.jpg" alt="" onerror="this.onerror=null; this.remove();"/>
 </div>
 <div class="img3-div">
-  <img id="img3" src="./assets/alumns-img/${projectName}-img3.jpg" alt="" />
+  <img id="img3" src="./assets/alumns-img/${projectName}-img3.jpg" alt="" onerror="this.onerror=null; this.remove();"/>
 </div>
 </div>`;
 
@@ -734,5 +734,25 @@ pdfAlumnes.innerHTML = `<a class="memory" id="memory" href="./assets/tfg/${proje
 if (func3d().SRCVideo === projectName) {
   const modelAlumnes = document.querySelector(".threedmodel-div");
   modelAlumnes.innerHTML = `<model-viewer class="threedmodel" bounds="tight" ar-placement="wall" disable-zoom disable-pan="" src="./assets/alumns-3d/${projectName}.glb" camera-controls="" auto-rotate="" min-camera-orbit="auto 75deg " max-camera-orbit="auto 93deg auto" camera-orbit="240deg 0deg" min-field-of-view="10deg">
+  <div class="progress-bar hide" slot="progress-bar">
+  <div class="update-bar"></div>
+</div>
 </model-viewer>`;
+
+  const onProgress = (event) => {
+    const progressBar = event.target.querySelector(".progress-bar");
+    const updatingBar = event.target.querySelector(".update-bar");
+    updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
+    if (event.detail.totalProgress === 1) {
+      progressBar.classList.add("hide");
+    } else {
+      progressBar.classList.remove("hide");
+      if (event.detail.totalProgress === 0) {
+        event.target.querySelector(".center-pre-prompt").classList.add("hide");
+      }
+    }
+  };
+  document
+    .querySelector("model-viewer")
+    .addEventListener("progress", onProgress);
 }
