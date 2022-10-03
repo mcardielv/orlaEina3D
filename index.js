@@ -200,14 +200,14 @@ const data = [
     SRC: "berta-gorriz",
     SRCVideo: "berta-gorriz",
   },
-  {
-    ALUMNE: "Eugenia Prenafeta Oriach",
-    TITOL: "Disseny de serveis educatius",
-    ABSTRACTS:
-      "Els reptes que presenten actualment les organitzacions educatives en relació al foment de les STEM (Science, Technology, Engineering, Maths) són cada cop més evidents. Actualment, els estudis demostren que no hi ha prou estudiants interessats a seguir estudis en l'àmbit de les STEM per satisfer la necessitat present de nous científics, enginyers i líders en resolució de problemes. Les progressives demandes del mercat laboral, que busca professionals formats en ciència, tecnología, enginyeria i matemàtiques, exigeixen un major esforç en el foment de les vocacions entre els més joves. Existeixen múltiples projectes adreçats a resoldre aquest buit professional però ens hem de preguntar si ho fan de forma permanent. Davant les debilitats dels sistemes actuals és necessari proposar nous projectes i reptes que s'adaptin a l'alumnat així com a l'organització, recursos i capacitats dels centres educatius.\r\nAquest treball final de grau busca desenvolupar i millorar un projecte real per al foment de les STEM amb l'objectiu de fer-lo més accessible per als centres educatius i alhora assolir un impacte a llarg plaç entre l'alumnat. Com a resultat, sorgeix una proposta de valor que ofereix un servei més eficient i de més qualitat, que impacta no només en l'alumnat, sinó també en el gruix de la comunitat educativa. Aquest nou servei està definit a partir de l'ús de la metodologia de disseny de serveis, des de diferents enfocs, implementant alternatives en les diferents parts del projecte. El resultat final esdevé un projecte on es millora l'estructura del projecte actual, reformulant els materials i recursos necessaris, així com la gestió operativa.",
-    TIPOLOGIA: "Cultura",
-    SRC: "eugenia-prenafeta",
-  },
+  // {
+  //   ALUMNE: "Eugenia Prenafeta Oriach",
+  //   TITOL: "Disseny de serveis educatius",
+  //   ABSTRACTS:
+  //     "Els reptes que presenten actualment les organitzacions educatives en relació al foment de les STEM (Science, Technology, Engineering, Maths) són cada cop més evidents. Actualment, els estudis demostren que no hi ha prou estudiants interessats a seguir estudis en l'àmbit de les STEM per satisfer la necessitat present de nous científics, enginyers i líders en resolució de problemes. Les progressives demandes del mercat laboral, que busca professionals formats en ciència, tecnología, enginyeria i matemàtiques, exigeixen un major esforç en el foment de les vocacions entre els més joves. Existeixen múltiples projectes adreçats a resoldre aquest buit professional però ens hem de preguntar si ho fan de forma permanent. Davant les debilitats dels sistemes actuals és necessari proposar nous projectes i reptes que s'adaptin a l'alumnat així com a l'organització, recursos i capacitats dels centres educatius.\r\nAquest treball final de grau busca desenvolupar i millorar un projecte real per al foment de les STEM amb l'objectiu de fer-lo més accessible per als centres educatius i alhora assolir un impacte a llarg plaç entre l'alumnat. Com a resultat, sorgeix una proposta de valor que ofereix un servei més eficient i de més qualitat, que impacta no només en l'alumnat, sinó també en el gruix de la comunitat educativa. Aquest nou servei està definit a partir de l'ús de la metodologia de disseny de serveis, des de diferents enfocs, implementant alternatives en les diferents parts del projecte. El resultat final esdevé un projecte on es millora l'estructura del projecte actual, reformulant els materials i recursos necessaris, així com la gestió operativa.",
+  //   TIPOLOGIA: "Cultura",
+  //   SRC: "eugenia-prenafeta",
+  // },
   {
     ALUMNE: "Josep Rojas Capell",
     TITOL: "Trànsit-Transport-Trauma",
