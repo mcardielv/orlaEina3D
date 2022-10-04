@@ -323,7 +323,7 @@ footer {
 
   .alumn {
     padding-top: 10px;
-    width: 47%;
+    width: 45%;
     height: 187px;
     align-items: center;
     justify-items: center;
@@ -361,6 +361,7 @@ footer {
     text-align: right;
     padding-right: 15px;
   }
+
   .alumns-list li a,
   .alumns-list-specialities li {
     display: flex;
